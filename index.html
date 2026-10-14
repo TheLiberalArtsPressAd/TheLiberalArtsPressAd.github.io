@@ -3,25 +3,16 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>文史哲出版社 The Liberal Arts Press｜典藏半世紀智慧・點亮新視界</title>
-  <meta name="description" content="文史哲出版社創立於1971年，致力於出版高品質文學、歷史、哲學及大學院校學術研究論著。收錄逾2,600種漢學、清史、滿學、文心雕龍與國學經典專書，提供線上圖書檢索與購書服務。" />
-  <meta name="keywords" content="文史哲出版社,彭正雄,文史哲學集成,滿文原檔,清史論集,滿語叢刊,文心雕龍,中國圖書史略,學術出版,漢學書局,台灣出版社" />
-  <meta name="author" content="文史哲出版社有限公司" />
+  <title>文史哲出版社 The Liberal Arts Press｜典藏半世紀智慧・數位藏經閣旗艦館</title>
+  <meta name="description" content="文史哲出版社創立於1971年，深耕文學、歷史、哲學與大學學術專書逾半世紀。收錄逾2,630種清史滿學、文心雕龍、版本目錄與國學經典，提供3D古籍預覽、直排卷軸品讀、論文引用產生器與線上購書服務。" />
+  <meta name="keywords" content="文史哲出版社,彭正雄,文史哲學集成,滿文原檔,清史論集,莊吉發,文心雕龍,王更生,昌彼得,漢學出版" />
   <link rel="canonical" href="https://theliberalartspress.github.io/" />
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://theliberalartspress.github.io/" />
-  <meta property="og:title" content="文史哲出版社 The Liberal Arts Press｜典藏半世紀智慧・點亮新視界" />
-  <meta property="og:description" content="創立於1971年，深耕文學、歷史、哲學與漢學專業出版逾半世紀，提供逾2,600冊學術專書線上檢索、導讀與購書服務。" />
-
-  <!-- Google Fonts: 思源宋體 & 思源黑體 -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&family=Noto+Serif+TC:wght@400;600;700;900&display=swap" rel="stylesheet" />
-
-  <!-- Tailwind CSS CDN -->
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;600;700&family=Noto+Serif+TC:wght@400;600;700;900&display=swap" rel="stylesheet" />
   <script src="https://cdn.tailwindcss.com"></script>
+
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -29,16 +20,15 @@
         extend: {
           colors: {
             brand: {
-              DEFAULT: '#8C5A2B', // 原站設定 themeColor 古銅書院褐
-              light: '#B07BAC',
-              dark: '#69411C',
-              indigo: '#445988',  // 原站設定 darkThemeColor 書院靛藍
-              cinnabar: '#9E2A2B', // 硃砂藏書印紅
-              paper: '#F9F6F0',   // 原站設定 bgLightColor 宣紙淺米
-              warm: '#E9EACD',    // 原站設定 lightBgColor
-              accent: '#F1F2E9',  // 原站設定 accentColor
-              ink: '#1D2A04',     // 原站設定 textDarkColor
-              footer: '#1A1412'   // 原站設定 footerBgColor 松煙墨黑
+              DEFAULT: '#8C5A2B',
+              dark: '#5E3A18',
+              gold: '#C59B27',
+              indigo: '#2B426B',
+              cinnabar: '#9E2A2B',
+              jade: '#2C5E4F',
+              paper: '#F7F3E8',
+              parchment: '#EFE9D8',
+              ink: '#1C1714'
             }
           },
           fontFamily: {
@@ -50,7 +40,6 @@
     };
   </script>
 
-  <!-- JSON-LD 結構化資料 (提升 Google Search Console SEO 表現) -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -59,13 +48,9 @@
     "name": "文史哲出版社有限公司",
     "alternateName": "The Liberal Arts Press",
     "foundingDate": "1971-02-16",
-    "founder": {
-      "@type": "Person",
-      "name": "彭正雄"
-    },
+    "founder": { "@type": "Person", "name": "彭正雄" },
     "url": "https://theliberalartspress.github.io/",
     "telephone": "+886-2-2351-1028",
-    "faxNumber": "+886-2-2396-5656",
     "email": "lapentw@gmail.com",
     "address": {
       "@type": "PostalAddress",
@@ -73,10 +58,7 @@
       "addressLocality": "台北市",
       "postalCode": "100040",
       "addressCountry": "TW"
-    },
-    "sameAs": [
-      "https://www.facebook.com/profile.php?id=61590146114229"
-    ]
+    }
   }
   </script>
 
@@ -89,56 +71,134 @@
     }
     body {
       font-family: 'Noto Sans TC', sans-serif;
-      background-color: #F9F6F0;
-      color: #1D2A04;
-      background-image: radial-gradient(rgba(140, 90, 43, 0.04) 1px, transparent 0);
-      background-size: 24px 24px;
+      background-color: #F7F3E8;
+      color: #1C1714;
+      overflow-x: hidden;
     }
     .dark body {
-      background-color: #141210;
-      color: #EAE4DC;
-      background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 0);
+      background-color: #12100E;
+      color: #ECE5D8;
     }
     .font-serif-tc {
       font-family: 'Noto Serif TC', serif;
     }
-    /* 直排古籍文字樣式 */
+
     .writing-vertical {
       writing-mode: vertical-rl;
       text-orientation: upright;
     }
-    /* 硃砂印章質感 */
+    /* 朱絲欄古籍宣紙背景 (用於直排卷軸品讀模式) */
+    .zhusilan-paper {
+      background-color: #FAF5E8;
+      background-image:
+        linear-gradient(to left, rgba(158, 42, 43, 0.22) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(158, 42, 43, 0.12) 1px, transparent 1px);
+      background-size: 2.6rem 100%, 100% 2.6rem;
+      border-top: 3px double #9E2A2B;
+      border-bottom: 3px double #9E2A2B;
+    }
+    .dark .zhusilan-paper {
+      background-color: #1E1A17;
+      background-image:
+        linear-gradient(to left, rgba(197, 155, 39, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(197, 155, 39, 0.1) 1px, transparent 1px);
+      border-top: 3px double #C59B27;
+      border-bottom: 3px double #C59B27;
+    }
+
+    .book-3d-stage {
+      perspective: 1100px;
+    }
+    .book-3d-wrap {
+      transform-style: preserve-3d;
+      transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1), box-shadow 0.55s ease;
+      position: relative;
+    }
+    .group:hover .book-3d-wrap {
+      transform: rotateY(-16deg) translateY(-6px) translateZ(8px);
+      box-shadow: 18px 18px 32px -6px rgba(28, 23, 20, 0.35);
+    }
+    /* 書頁側邊立體紙張層次 */
+    .book-3d-wrap::after {
+      content: '';
+      position: absolute;
+      top: 3px;
+      bottom: 3px;
+      right: -8px;
+      width: 8px;
+      background: repeating-linear-gradient(
+        to right,
+        #F5EFE0 0px,
+        #D8CEB8 1px,
+        #F5EFE0 2px
+      );
+      transform: rotateY(90deg);
+      transform-origin: left;
+      border-radius: 0 2px 2px 0;
+    }
+
+    .thread-bound-cover {
+      position: relative;
+      overflow: hidden;
+      box-shadow: inset -12px 0 20px rgba(0,0,0,0.35), inset 2px 0 6px rgba(255,255,255,0.12);
+    }
+    /* 線裝書右側裝訂白線與針眼 */
+    .thread-bound-cover::before {
+      content: '';
+      position: absolute;
+      right: 11px;
+      top: 0;
+      bottom: 0;
+      width: 1.5px;
+      background: rgba(255, 250, 240, 0.55);
+      box-shadow: -3px 0 0 rgba(0, 0, 0, 0.4);
+    }
+    .thread-stitch-nodes {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 12px;
+      background: repeating-linear-gradient(
+        to bottom,
+        transparent 0%,
+        transparent 18%,
+        rgba(255, 250, 240, 0.65) 18%,
+        rgba(255, 250, 240, 0.65) 19.5%,
+        transparent 19.5%,
+        transparent 100%
+      );
+      pointer-events: none;
+    }
+
     .seal-stamp {
       border: 2px solid #9E2A2B;
       color: #9E2A2B;
       font-family: 'Noto Serif TC', serif;
       font-weight: 900;
-      letter-spacing: 0.1em;
-      box-shadow: inset 0 0 0 1px rgba(158, 42, 43, 0.3);
+      letter-spacing: 0.12em;
+      box-shadow: inset 0 0 0 1px rgba(158, 42, 43, 0.35);
+      background-color: rgba(158, 42, 43, 0.04);
     }
-    /* 線裝書封紋理 */
-    .thread-bound-cover {
-      background: linear-gradient(135deg, #2C3E50 0%, #1F2E3D 100%);
-      position: relative;
-      overflow: hidden;
+    @keyframes stampPop {
+      0% { transform: scale(2.2) rotate(-12deg); opacity: 0; }
+      70% { transform: scale(0.92) rotate(3deg); opacity: 1; }
+      100% { transform: scale(1) rotate(-3deg); opacity: 1; }
     }
-    .thread-bound-cover::before {
-      content: '';
-      position: absolute;
-      right: 12px;
-      top: 0;
-      bottom: 0;
-      width: 2px;
-      background: rgba(255, 255, 255, 0.22);
-      box-shadow: -3px 0 0 rgba(0, 0, 0, 0.3);
+    .animate-stamp {
+      animation: stampPop 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
     }
+
     /* 自訂捲軸 */
     ::-webkit-scrollbar {
       width: 8px;
       height: 8px;
     }
     ::-webkit-scrollbar-track {
-      background: #F1ECE1;
+      background: #EFE9D8;
+    }
+    .dark ::-webkit-scrollbar-track {
+      background: #1C1917;
     }
     ::-webkit-scrollbar-thumb {
       background: #8C5A2B;
@@ -146,219 +206,243 @@
     }
   </style>
 </head>
-<body class="min-h-screen flex flex-col transition-colors duration-300">
 
-  <!-- 頂部文化公告與工具列 (Top Utility Bar) -->
-  <div class="bg-[#1A1412] text-amber-100/90 text-xs py-2 px-4 border-b border-amber-900/40">
+<body class="min-h-screen flex flex-col transition-colors duration-300 relative">
+
+  <!-- 背景松煙墨韻互動粒子畫布 (Interactive Ink & Paper Dust Canvas) -->
+  <canvas id="inkCanvas" class="fixed inset-0 pointer-events-none z-0 opacity-60 dark:opacity-40"></canvas>
+
+  <!-- 頂部閱讀進度條 -->
+  <div class="fixed top-0 left-0 right-0 h-1 z-50 bg-transparent">
+    <div id="scrollProgressBar" class="h-full bg-gradient-to-r from-brand via-brand-cinnabar to-brand-gold w-0 transition-all duration-150"></div>
+  </div>
+
+  <!-- 頂部書院工具列 (Top Utility Bar) -->
+  <div class="relative z-30 bg-[#17120F] text-amber-100/90 text-xs py-2 px-4 border-b border-amber-900/40">
     <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
       <div class="flex items-center gap-3">
-        <span class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded bg-brand-cinnabar text-white font-medium">
-          <span>創立於 1971 年</span>
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded bg-brand-cinnabar text-white font-semibold tracking-wider shadow-sm">
+          <span>辛亥（1971）創社</span>
         </span>
-        <span class="hidden sm:inline text-amber-100/80">
-          台北市中正區羅斯福路一段72巷4號 ｜ 服務專線：(02) 2351-1028
+        <span class="hidden md:inline text-amber-100/75">
+          台北市中正區羅斯福路一段72巷4號 ｜ 專線：(02) 2351-1028
         </span>
-        <span id="syncStatusBadge" class="inline-flex items-center gap-1.5 text-emerald-400">
-          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-          <span id="syncStatusText">最新庫存已載入</span>
+        <span id="syncStatusBadge" class="inline-flex items-center gap-1.5 text-emerald-400 font-medium">
+          <span class="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          <span id="syncStatusText">全館書庫即時連線中</span>
         </span>
       </div>
 
-      <!-- 輔助工具：字級調整、深色模式、訂單查詢、資料庫匯入 -->
-      <div class="flex items-center gap-3 ml-auto">
-        <div class="flex items-center bg-white/10 rounded px-1.5 py-0.5 gap-1" title="調整閱讀字級">
+      <div class="flex items-center gap-2.5 ml-auto">
+        <!-- 字級縮放 -->
+        <div class="flex items-center bg-white/10 rounded-lg px-2 py-0.5 gap-1 border border-white/10" title="切換全站閱讀字級">
           <span class="text-[11px] text-amber-200/70 mr-0.5">字級</span>
-          <button onclick="setFontSize(15)" class="hover:text-white px-1 rounded">小</button>
-          <button onclick="setFontSize(16)" class="hover:text-white px-1 rounded font-bold text-amber-300">中</button>
-          <button onclick="setFontSize(18)" class="hover:text-white px-1 rounded">大</button>
+          <button onclick="setFontSize(15)" class="hover:text-amber-300 px-1 rounded transition">小</button>
+          <button onclick="setFontSize(16)" class="hover:text-amber-300 px-1 rounded font-bold text-amber-300 transition">標準</button>
+          <button onclick="setFontSize(18)" class="hover:text-amber-300 px-1 rounded transition">大字</button>
         </div>
-        <button onclick="toggleDarkMode()" class="flex items-center gap-1 hover:text-amber-300 transition" title="切換日讀宣紙 / 夜讀松煙模式">
+
+        <!-- 日讀宣紙 / 夜讀松煙 -->
+        <button onclick="toggleDarkMode()" class="flex items-center gap-1 px-2.5 py-1 rounded-lg bg-white/10 hover:bg-white/20 transition" title="切換日讀宣紙或夜讀松煙模式">
           <span id="darkModeIcon">🌙</span>
-          <span id="darkModeText" class="hidden md:inline">夜讀模式</span>
+          <span id="darkModeText" class="hidden sm:inline">夜讀松煙</span>
         </button>
-        <button onclick="openModal('orderLookupModal')" class="hover:text-amber-300 transition flex items-center gap-1">
+
+        <!-- 訂單查詢 -->
+        <button onclick="openModal('orderLookupModal')" class="hover:text-amber-300 transition flex items-center gap-1 px-2 py-1">
           <span>📦 訂單查詢</span>
         </button>
-        <button onclick="openModal('wishlistModal')" class="hover:text-amber-300 transition flex items-center gap-1">
-          <span>🔖 學術收藏單 (<span id="wishlistCount">0</span>)</span>
+
+        <!-- 學術收藏單 -->
+        <button onclick="openModal('wishlistModal')" class="hover:text-amber-300 transition flex items-center gap-1 px-2 py-1">
+          <span>🔖 學術收藏 (<span id="wishlistCount">0</span>)</span>
         </button>
       </div>
     </div>
   </div>
 
-  <!-- 主導覽列 (Sticky Header) -->
-  <header class="sticky top-0 z-40 bg-[#F9F6F0]/95 dark:bg-[#1C1917]/95 backdrop-blur-md border-b border-brand/20 shadow-sm">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
-      <!-- 品牌標誌 -->
-      <a href="#" class="flex items-center gap-3.5 group">
-        <div class="w-12 h-12 rounded-lg bg-brand text-white flex flex-col items-center justify-center font-serif-tc shadow-md group-hover:bg-brand-dark transition relative overflow-hidden">
-          <span class="text-xs tracking-widest opacity-80">1971</span>
+  <header class="sticky top-0 z-40 bg-[#F7F3E8]/95 dark:bg-[#181512]/95 backdrop-blur-md border-b border-brand/20 shadow-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between gap-4">
+      <!-- 品牌標誌與硃砂印 -->
+      <a href="#" class="flex items-center gap-3.5 group shrink-0">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-br from-brand to-brand-dark text-amber-50 flex flex-col items-center justify-center font-serif-tc shadow-md group-hover:scale-105 transition relative border border-amber-200/30">
+          <span class="text-[10px] tracking-widest opacity-80">1971</span>
           <span class="text-lg font-black tracking-tighter leading-none">文史哲</span>
         </div>
         <div>
           <div class="flex items-center gap-2">
-            <h1 class="font-serif-tc text-xl sm:text-2xl font-black tracking-wide text-brand-ink dark:text-amber-100">
+            <h1 class="font-serif-tc text-xl sm:text-2xl font-black tracking-wide text-stone-900 dark:text-amber-50">
               文史哲出版社
             </h1>
-            <span class="seal-stamp text-[10px] px-1.5 py-0.2 rounded-sm hidden sm:inline-block">學林典藏</span>
+            <span class="seal-stamp text-[10px] px-1.5 py-0.5 rounded-sm hidden sm:inline-block">學林重鎮</span>
           </div>
-          <p class="text-xs text-stone-500 dark:text-stone-400 tracking-wider">
+          <p class="text-[11px] text-stone-500 dark:text-stone-400 tracking-widest font-medium">
             THE LIBERAL ARTS PRESS CO., LTD.
           </p>
         </div>
       </a>
 
-      <!-- 桌面版導覽選單 (100% 對齊原版 UI 欄位並擴充) -->
-      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-stone-700 dark:text-stone-200">
+      <!-- 桌面版導覽選單（依循「源流 → 策展 → 檢索 → 典藏服務」四大邏輯） -->
+      <nav class="hidden xl:flex items-center gap-5 text-sm font-medium text-stone-700 dark:text-stone-200">
         <button onclick="openModal('aboutModal')" class="hover:text-brand dark:hover:text-amber-400 transition py-2">關於我們</button>
         <button onclick="openModal('presidentModal')" class="hover:text-brand dark:hover:text-amber-400 transition py-2">關於社長</button>
-        <a href="#curatedSection" class="hover:text-brand dark:hover:text-amber-400 transition py-2">鎮社專題</a>
+        <a href="#lineageSection" class="hover:text-brand dark:hover:text-amber-400 transition py-2 flex items-center gap-1">
+          <span class="text-brand-gold">✦</span>學術師承圖譜
+        </a>
+        <a href="#curatedSection" class="hover:text-brand dark:hover:text-amber-400 transition py-2">鎮社四館</a>
         <button onclick="openModal('newArrivalsModal')" class="hover:text-brand dark:hover:text-amber-400 transition py-2 flex items-center gap-1">
-          <span class="w-1.5 h-1.5 rounded-full bg-brand-cinnabar"></span>新書上市
+          <span class="w-2 h-2 rounded-full bg-brand-cinnabar animate-pulse"></span>新書上市
         </button>
-        <a href="#catalogSection" class="hover:text-brand dark:hover:text-amber-400 transition py-2 font-semibold text-brand dark:text-amber-400">書籍檢索</a>
+        <a href="#catalogSection" class="px-3 py-1.5 rounded-lg bg-brand/10 dark:bg-amber-500/15 text-brand dark:text-amber-300 font-bold hover:bg-brand hover:text-white transition">
+          藏經閣檢索
+        </a>
         <button onclick="openModal('contactModal')" class="hover:text-brand dark:hover:text-amber-400 transition py-2">聯繫我們</button>
         <a href="https://www.facebook.com/profile.php?id=61590146114229&locale=zh_TW" target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#1877F2]/10 text-[#1877F2] dark:bg-[#1877F2]/20 dark:text-blue-300 hover:bg-[#1877F2] hover:text-white transition text-xs font-semibold">
           <svg class="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
-          FB臉書
+          FB粉專
         </a>
       </nav>
 
-      <!-- 右側快速搜尋與我的書包 -->
-      <div class="flex items-center gap-2.5">
-        <button onclick="scrollToSearch()" class="p-2.5 rounded-full hover:bg-brand/10 text-stone-700 dark:text-stone-200 transition" title="快速跳轉書籍檢索">
-          <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+      <div class="flex items-center gap-2">
+        <!-- 學術比對案頭按鈕 -->
+        <button onclick="openModal('compareModal')" class="hidden sm:inline-flex items-center gap-1.5 px-3.5 py-2 rounded-full border border-brand/30 bg-white/80 dark:bg-stone-800 hover:border-brand text-xs font-semibold text-stone-700 dark:text-amber-200 transition" title="比對多本專書並匯出合輯參考文獻">
+          <span>⚖️ 研究案頭</span>
+          <span id="compareCountBadge" class="px-1.5 py-0.2 rounded-full bg-brand/15 text-brand dark:text-amber-300 font-bold">0</span>
         </button>
 
-        <button onclick="openModal('cartModal')" class="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-brand hover:bg-brand-dark text-white text-sm font-medium shadow-md transition">
+        <!-- 我的書包按鈕 -->
+        <button onclick="openModal('cartModal')" class="relative inline-flex items-center gap-2 px-4 py-2.5 rounded-full bg-gradient-to-r from-brand to-brand-dark hover:opacity-95 text-white text-sm font-semibold shadow-md transition">
           <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"/></svg>
           <span>我的書包</span>
           <span id="cartCountBadge" class="inline-flex items-center justify-center px-2 py-0.5 text-xs font-bold bg-amber-100 text-brand-dark rounded-full">0</span>
         </button>
 
-        <!-- 手機版選單按鈕 -->
-        <button onclick="toggleMobileMenu()" class="lg:hidden p-2 rounded-lg text-stone-700 dark:text-stone-200 hover:bg-stone-200/60">
+        <!-- 手機版漢堡選單 -->
+        <button onclick="toggleMobileMenu()" class="xl:hidden p-2 rounded-lg text-stone-700 dark:text-stone-200 hover:bg-stone-200/60">
           <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
         </button>
       </div>
     </div>
 
-    <!-- 手機版下拉選單 -->
-    <div id="mobileMenu" class="hidden lg:hidden bg-[#F9F6F0] dark:bg-stone-900 border-t border-brand/20 px-4 py-4 space-y-2 text-sm">
-      <div class="grid grid-cols-2 gap-2">
-        <button onclick="openModal('aboutModal');toggleMobileMenu()" class="text-left px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">📖 關於我們</button>
-        <button onclick="openModal('presidentModal');toggleMobileMenu()" class="text-left px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">🖋️ 關於社長</button>
-        <button onclick="openModal('newArrivalsModal');toggleMobileMenu()" class="text-left px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">✨ 新書上市</button>
-        <a href="#catalogSection" onclick="toggleMobileMenu()" class="px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">🔍 書籍檢索</a>
-        <button onclick="openModal('contactModal');toggleMobileMenu()" class="text-left px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">✉️ 聯繫我們</button>
-        <button onclick="openModal('orderLookupModal');toggleMobileMenu()" class="text-left px-3 py-2 rounded bg-white dark:bg-stone-800 shadow-sm">📦 訂單查詢</button>
+    <!-- 手機版折疊導覽面板 -->
+    <div id="mobileMenu" class="hidden xl:hidden bg-[#F7F3E8] dark:bg-stone-900 border-t border-brand/20 px-4 py-4 space-y-2 text-sm">
+      <div class="grid grid-cols-2 sm:grid-cols-3 gap-2">
+        <button onclick="openModal('aboutModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">📖 關於我們</button>
+        <button onclick="openModal('presidentModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">🖋️ 關於社長</button>
+        <a href="#lineageSection" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">✦ 學術師承圖譜</a>
+        <a href="#curatedSection" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">🏛️ 鎮社四館</a>
+        <button onclick="openModal('newArrivalsModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">✨ 新書上市</button>
+        <a href="#catalogSection" onclick="toggleMobileMenu()" class="px-3 py-2.5 rounded-xl bg-brand text-white shadow-sm font-medium">🔍 藏經閣檢索</a>
+        <button onclick="openModal('compareModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">⚖️ 研究比對案頭</button>
+        <button onclick="openModal('orderLookupModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">📦 訂單進度查詢</button>
+        <button onclick="openModal('contactModal');toggleMobileMenu()" class="text-left px-3 py-2.5 rounded-xl bg-white dark:bg-stone-800 shadow-sm font-medium">✉️ 聯繫與尋書</button>
       </div>
     </div>
   </header>
 
-  <!-- 動態公告輪播橫幅 (對應原站 hot 工作表) -->
-  <section class="bg-gradient-to-r from-[#2B2118] via-[#3E2C1E] to-[#243046] text-amber-50 relative overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex items-center justify-between gap-4 text-xs sm:text-sm">
+  <section class="relative z-20 bg-gradient-to-r from-[#231A13] via-[#3A281B] to-[#1E2E46] text-amber-50 border-b border-amber-500/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2.5 flex items-center justify-between gap-4 text-xs sm:text-sm">
       <div class="flex items-center gap-3 overflow-hidden">
         <span class="shrink-0 px-2.5 py-0.5 rounded-full bg-amber-500/20 border border-amber-400/40 text-amber-300 font-semibold text-xs">
-          書訊快報
+          書院快報
         </span>
-        <div id="hotBannerText" class="truncate font-medium transition-opacity duration-500">
-          🎉 慶祝文史哲官方網站與臉書正式上線！收錄逾 2,630 冊人文學術專書，歡迎學界先進線上檢索選購！
+        <div id="hotBannerText" class="truncate font-medium transition-all duration-500">
+          🎉 慶祝文史哲官方網站與臉書正式上線！收錄逾 2,630 冊人文學術專書，支援直排卷軸品讀與一鍵產生論文引用格式！
         </div>
       </div>
-      <div class="flex items-center gap-2 shrink-0">
-        <a href="https://www.facebook.com/profile.php?id=61590146114229&locale=zh_TW" target="_blank" rel="noopener" class="text-amber-300 hover:underline font-medium">
-          前往官方粉專 →
-        </a>
+      <div class="flex items-center gap-3 shrink-0">
+        <button onclick="cycleHotBanner()" class="text-amber-300/80 hover:text-amber-200 text-xs">下一則 ▸</button>
       </div>
     </div>
   </section>
 
-  <!-- 主視覺區 (Hero Section - 對齊原站 heroHeading1 / heroHeading2 / heroSubheading) -->
-  <section class="relative overflow-hidden border-b border-brand/15 bg-gradient-to-b from-[#F4EFE6] to-[#F9F6F0] dark:from-[#1C1815] dark:to-[#141210] py-14 sm:py-20">
-    <!-- 背景裝飾古籍浮水印 -->
-    <div class="pointer-events-none select-none absolute right-6 top-6 opacity-[0.04] dark:opacity-[0.03] font-serif-tc text-8xl sm:text-9xl font-black writing-vertical leading-none">
+  <!-- =================================================================== -->
+  <!-- 第一階段：走入書院 (Hero Showcase & 3D Spotlight) -->
+  <!-- =================================================================== -->
+  <section class="relative z-10 overflow-hidden border-b border-brand/20 bg-gradient-to-b from-[#EFE9D8]/80 via-[#F7F3E8] to-[#F7F3E8] dark:from-[#1B1612] dark:via-[#14110F] dark:to-[#12100E] py-12 sm:py-20">
+    <!-- 古籍直排背景浮水印 -->
+    <div class="pointer-events-none select-none absolute right-6 top-8 opacity-[0.045] dark:opacity-[0.03] font-serif-tc text-7xl sm:text-9xl font-black writing-vertical leading-none tracking-widest">
       文史哲學集成
     </div>
 
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
       <div class="grid lg:grid-cols-12 gap-10 items-center">
-        <!-- 左側品牌論述 -->
+        <!-- 左側：書院主視覺論述與智慧檢索 -->
         <div class="lg:col-span-7 space-y-6">
-          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand/10 dark:bg-brand/20 text-brand dark:text-amber-300 text-xs font-semibold tracking-wider">
+          <div class="inline-flex flex-wrap items-center gap-2 px-3.5 py-1.5 rounded-full bg-brand/10 dark:bg-amber-500/15 border border-brand/25 text-brand dark:text-amber-300 text-xs font-semibold tracking-wider">
             <span>中華民國六十年（1971）二月十六日創社</span>
             <span>‧</span>
-            <span>文史哲學集成</span>
+            <span>中國文藝工作獎章得主</span>
           </div>
 
-          <h2 class="font-serif-tc text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-stone-900 dark:text-amber-50 leading-[1.2]">
+          <h2 class="font-serif-tc text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight text-stone-900 dark:text-amber-50 leading-[1.18]">
             典藏半世紀智慧<br />
-            <span class="text-brand dark:text-amber-400">點亮新視界</span>
+            <span class="bg-clip-text text-transparent bg-gradient-to-r from-brand via-brand-cinnabar to-brand-indigo dark:from-amber-300 dark:via-amber-400 dark:to-rose-400">
+              點亮當代漢學新視界
+            </span>
           </h2>
 
           <p class="text-base sm:text-lg text-stone-600 dark:text-stone-300 leading-relaxed max-w-2xl">
-            致力於出版高品質文學、歷史、哲學著作，讓深厚底蘊更貼近當代讀者；跨越時空的底蘊，化為當代心靈的迴響。深耕大學院校學術論著、清史滿學、龍學與古典文獻整理逾五十五載。
+            致力於出版高品質文學、歷史、哲學與大學研究論著，讓跨越千年的文獻考據與思想底蘊，化為當代學人案頭最堅實的依靠。全館逾 <strong class="text-brand dark:text-amber-300">2,630 種</strong> 專書支援線上檢索、直排古籍品讀與 BOD 隨需印製。
           </p>
 
-          <!-- 快速全站檢索框 -->
-          <div class="bg-white dark:bg-stone-800 p-2 rounded-2xl shadow-lg border border-brand/20 max-w-2xl flex flex-col sm:flex-row gap-2">
-            <div class="flex-1 flex items-center px-3 gap-2">
+          <!-- 智慧全站檢索框 -->
+          <div class="bg-white dark:bg-stone-800/95 p-2 rounded-2xl shadow-xl border border-brand/25 max-w-2xl flex flex-col sm:flex-row gap-2">
+            <div class="flex-1 flex items-center px-3 gap-2.5">
               <svg class="w-5 h-5 text-brand shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
               <input
                 id="heroQuickSearch"
                 type="text"
-                placeholder="輸入書名、作者（如：莊吉發、王更生、昌彼得）、ISBN 或書碼..."
+                placeholder="搜尋書名、學者（如：莊吉發、王更生、昌彼得、李威熊）、ISBN 或書碼..."
                 class="w-full py-2.5 bg-transparent text-sm focus:outline-none dark:text-white"
                 onkeydown="if(event.key==='Enter') executeHeroSearch()"
               />
             </div>
-            <button onclick="executeHeroSearch()" class="px-6 py-3 rounded-xl bg-brand hover:bg-brand-dark text-white font-semibold text-sm transition shrink-0">
-              立即檢索書庫
+            <button onclick="executeHeroSearch()" class="px-6 py-3 rounded-xl bg-gradient-to-r from-brand to-brand-dark hover:opacity-95 text-white font-semibold text-sm shadow transition shrink-0">
+              立即檢索藏經閣
             </button>
           </div>
 
-          <!-- 熱門檢索關鍵字 -->
-          <div class="flex flex-wrap items-center gap-2 text-xs text-stone-500 dark:text-stone-400">
-            <span class="font-medium">熱門學術檢索：</span>
-            <button onclick="quickFilterTag('滿文原檔')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">滿文原檔</button>
-            <button onclick="quickFilterTag('莊吉發')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">莊吉發（清史/滿學）</button>
-            <button onclick="quickFilterTag('文心雕龍')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">文心雕龍（龍學）</button>
-            <button onclick="quickFilterTag('昌彼得')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">昌彼得（圖書文獻）</button>
-            <button onclick="quickFilterTag('蔣介石')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">民國軍事史</button>
-            <button onclick="quickFilterTag('BOD')" class="px-2.5 py-1 rounded-full bg-stone-200/70 dark:bg-stone-800 hover:bg-brand hover:text-white transition">BOD 隨需印製經典</button>
+          <!-- 熱門學術關鍵字標籤 -->
+          <div class="flex flex-wrap items-center gap-2 text-xs text-stone-600 dark:text-stone-400">
+            <span class="font-semibold text-brand dark:text-amber-400">學界熱搜：</span>
+            <button onclick="quickFilterTag('滿文原檔');scrollToSearch()" class="px-3 py-1 rounded-full bg-white dark:bg-stone-800 border border-brand/20 hover:bg-brand hover:text-white transition shadow-sm">📜 滿文原檔（莊吉發）</button>
+            <button onclick="quickFilterTag('文心雕龍');scrollToSearch()" class="px-3 py-1 rounded-full bg-white dark:bg-stone-800 border border-brand/20 hover:bg-brand hover:text-white transition shadow-sm">🐉 文心雕龍（龍學）</button>
+            <button onclick="quickFilterTag('昌彼得');scrollToSearch()" class="px-3 py-1 rounded-full bg-white dark:bg-stone-800 border border-brand/20 hover:bg-brand hover:text-white transition shadow-sm">📚 版本目錄（昌彼得）</button>
+            <button onclick="quickFilterTag('蔣介石');scrollToSearch()" class="px-3 py-1 rounded-full bg-white dark:bg-stone-800 border border-brand/20 hover:bg-brand hover:text-white transition shadow-sm">⚔️ 民國軍事史</button>
+            <button onclick="quickFilterTag('BOD');scrollToSearch()" class="px-3 py-1 rounded-full bg-white dark:bg-stone-800 border border-brand/20 hover:bg-brand hover:text-white transition shadow-sm">🖨️ BOD 絕版重現</button>
           </div>
         </div>
 
-        <!-- 右側：出版社典藏數據與焦點新書展示卡 -->
         <div class="lg:col-span-5">
-          <div class="bg-white/90 dark:bg-stone-800/90 backdrop-blur rounded-2xl p-6 shadow-xl border border-brand/20 relative">
+          <div class="bg-white/95 dark:bg-stone-800/95 backdrop-blur rounded-3xl p-6 sm:p-7 shadow-2xl border border-brand/25 relative">
             <div class="flex items-center justify-between border-b border-stone-200 dark:border-stone-700 pb-4 mb-5">
               <div>
-                <span class="text-xs uppercase tracking-widest text-brand font-bold">SPOTLIGHT NEW ARRIVAL</span>
-                <h3 class="font-serif-tc text-lg font-bold text-stone-900 dark:text-amber-100">本季鎮社焦點新書</h3>
+                <span class="text-[11px] uppercase tracking-widest text-brand font-bold">CURATOR'S 3D SPOTLIGHT</span>
+                <h3 class="font-serif-tc text-lg font-black text-stone-900 dark:text-amber-100">鎮社焦點專書 ‧ 互動賞析</h3>
               </div>
-              <span class="seal-stamp text-xs px-2 py-0.5">最新出版</span>
+              <div class="flex items-center gap-1.5">
+                <button onclick="prevHeroSpotlight()" class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-700 hover:bg-brand hover:text-white flex items-center justify-center text-xs transition" title="上一本焦點書">◀</button>
+                <button onclick="nextHeroSpotlight()" class="w-8 h-8 rounded-full bg-stone-100 dark:bg-stone-700 hover:bg-brand hover:text-white flex items-center justify-center text-xs transition" title="下一本焦點書">▶</button>
+              </div>
             </div>
 
-            <!-- 焦點書籍動態展示 -->
-            <div id="heroSpotlightCard" class="flex gap-5 items-start">
-              <!-- 由 JS 注入焦點新書 -->
-            </div>
+            <!-- 3D 焦點書籍動態容器 -->
+            <div id="heroSpotlightCard" class="min-h-[210px]"></div>
 
-            <!-- 典藏統計數據列 -->
+            <!-- 館藏實力數據列 -->
             <div class="grid grid-cols-3 gap-3 mt-6 pt-5 border-t border-stone-200 dark:border-stone-700 text-center">
-              <div class="p-2.5 rounded-xl bg-[#F9F6F0] dark:bg-stone-900/70">
+              <div class="p-2.5 rounded-xl bg-[#F7F3E8] dark:bg-stone-900/80 border border-brand/10">
                 <div id="statTotalBooks" class="font-serif-tc text-xl sm:text-2xl font-black text-brand dark:text-amber-400">2,632</div>
-                <div class="text-[11px] text-stone-500 dark:text-stone-400">線上檢索書目</div>
+                <div class="text-[11px] text-stone-500 dark:text-stone-400">累積出版專書</div>
               </div>
-              <div class="p-2.5 rounded-xl bg-[#F9F6F0] dark:bg-stone-900/70">
+              <div class="p-2.5 rounded-xl bg-[#F7F3E8] dark:bg-stone-900/80 border border-brand/10">
                 <div class="font-serif-tc text-xl sm:text-2xl font-black text-brand-indigo dark:text-blue-400">55 載</div>
-                <div class="text-[11px] text-stone-500 dark:text-stone-400">自 1971 深耕學術</div>
+                <div class="text-[11px] text-stone-500 dark:text-stone-400">自 1971 薪火相傳</div>
               </div>
-              <div class="p-2.5 rounded-xl bg-[#F9F6F0] dark:bg-stone-900/70">
-                <div class="font-serif-tc text-xl sm:text-2xl font-black text-brand-cinnabar dark:text-rose-400">7 大領域</div>
-                <div class="text-[11px] text-stone-500 dark:text-stone-400">文史哲藝全涵蓋</div>
+              <div class="p-2.5 rounded-xl bg-[#F7F3E8] dark:bg-stone-900/80 border border-brand/10">
+                <div class="font-serif-tc text-xl sm:text-2xl font-black text-brand-cinnabar dark:text-rose-400">4 大引用</div>
+                <div class="text-[11px] text-stone-500 dark:text-stone-400">一鍵論文書目格式</div>
               </div>
             </div>
           </div>
@@ -367,14 +451,131 @@
     </div>
   </section>
 
-  <!-- 精選書單 & 新書推薦區 (對應原站 sectionTitleFeatured & sectionTitleRecommendation) -->
-  <section class="py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8">
+  <!-- =================================================================== -->
+  <!-- 獨一無二特色一：文史哲「學術師承與名家知識圖譜」互動探索器 -->
+  <!-- =================================================================== -->
+  <section id="lineageSection" class="relative z-10 py-14 bg-[#EFE9D8]/70 dark:bg-stone-900/70 border-b border-brand/20">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-8">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-brand uppercase">SCHOLARLY LINEAGE & KNOWLEDGE GRAPH</span>
+          <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-1">
+            文史哲「名師淵源與學術星圖」互動導覽
+          </h2>
+          <p class="text-sm text-stone-600 dark:text-stone-400 mt-1">
+            創辦人彭正雄先生早年親炙臺大與學界諸位國學大師。點擊下方任一學者節點，即可探索其學術貢獻並一鍵調閱相關著作。
+          </p>
+        </div>
+        <button onclick="openModal('presidentModal')" class="self-start md:self-auto px-4 py-2 rounded-full border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand hover:text-white transition">
+          閱讀創社名師淵源全紀 →
+        </button>
+      </div>
+
+      <!-- 師承互動雙欄面板 -->
+      <div class="grid lg:grid-cols-12 gap-6 items-stretch">
+        <!-- 左側：名家節點矩陣 -->
+        <div class="lg:col-span-7 grid grid-cols-2 sm:grid-cols-4 gap-3" id="scholarNodesGrid">
+          <!-- 由 JS 渲染 8 位代表名家互動節點 -->
+        </div>
+
+        <!-- 右側：選中名家之深度學術檔案與代表作直通車 -->
+        <div id="scholarDetailPanel" class="lg:col-span-5 bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-lg border border-brand/25 flex flex-col justify-between">
+          <!-- 由 JS 動態注入 -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =================================================================== -->
+  <!-- 第二階段：鎮社四館專題策展 & 編輯室嚴選書單 -->
+  <!-- =================================================================== -->
+  <section id="curatedSection" class="relative z-10 py-14 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center max-w-3xl mx-auto mb-10">
+      <span class="text-xs font-bold tracking-widest text-brand uppercase">FOUR PILLARS OF LIBERAL ARTS</span>
+      <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-1">
+        文史哲鎮社四大學術專館
+      </h2>
+      <p class="text-sm text-stone-600 dark:text-stone-400 mt-2">
+        半世紀累積二千六百餘種專書，構築華文世界最具深度的四大文獻支柱。
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 mb-14">
+      <!-- 專館 1：清史與滿學典藏館 -->
+      <div class="bg-gradient-to-br from-[#1E3246] to-[#12202E] text-amber-50 rounded-2xl p-6 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition duration-300 border border-blue-400/20">
+        <div>
+          <div class="flex items-center justify-between text-xs text-amber-300/90 mb-3">
+            <span class="px-2.5 py-0.5 rounded-full bg-white/10 font-semibold">第一專館</span>
+            <span class="font-serif-tc">滿語叢刊 50 冊</span>
+          </div>
+          <h3 class="font-serif-tc text-xl font-black mb-2">清史檔案與滿學館</h3>
+          <p class="text-xs text-stone-300 leading-relaxed mb-4">
+            由莊吉發教授領銜，出版《清史論集》30集、《滿語叢刊》50冊及《滿文原檔》選讀譯注，為國際阿爾泰語與清初史研究重鎮。
+          </p>
+        </div>
+        <button onclick="quickFilterTag('滿文');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-amber-400/20 hover:bg-amber-400 hover:text-stone-900 text-amber-200 text-xs font-bold border border-amber-300/30 transition">
+          進入滿學與清史書庫 →
+        </button>
+      </div>
+
+      <!-- 專館 2：龍學與古典文論館 -->
+      <div class="bg-gradient-to-br from-[#4A2C1D] to-[#2B180F] text-amber-50 rounded-2xl p-6 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition duration-300 border border-amber-400/20">
+        <div>
+          <div class="flex items-center justify-between text-xs text-amber-300/90 mb-3">
+            <span class="px-2.5 py-0.5 rounded-full bg-white/10 font-semibold">第二專館</span>
+            <span class="font-serif-tc">文心雕龍研究群</span>
+          </div>
+          <h3 class="font-serif-tc text-xl font-black mb-2">龍學與選學文論館</h3>
+          <p class="text-xs text-stone-300 leading-relaxed mb-4">
+            匯聚王更生、黃季剛、黃春貴、蔡宗陽等名家，完整建立《文心雕龍》創作論、批評論與《昭明文選》黃氏學體系。
+          </p>
+        </div>
+        <button onclick="quickFilterTag('文心雕龍');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-amber-400/20 hover:bg-amber-400 hover:text-stone-900 text-amber-200 text-xs font-bold border border-amber-300/30 transition">
+          進入龍學與文論書庫 →
+        </button>
+      </div>
+
+      <!-- 專館 3：版本目錄與先秦兩漢經學館 -->
+      <div class="bg-gradient-to-br from-[#1F3A32] to-[#12241E] text-amber-50 rounded-2xl p-6 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition duration-300 border border-emerald-400/20">
+        <div>
+          <div class="flex items-center justify-between text-xs text-amber-300/90 mb-3">
+            <span class="px-2.5 py-0.5 rounded-full bg-white/10 font-semibold">第三專館</span>
+            <span class="font-serif-tc">文史哲學集成</span>
+          </div>
+          <h3 class="font-serif-tc text-xl font-black mb-2">目錄學與先秦兩漢館</h3>
+          <p class="text-xs text-stone-300 leading-relaxed mb-4">
+            典藏昌彼得《中國圖書史略》、胡自逢《先秦諸子易說通考》、李威熊《董仲舒與西漢學術》、《漢書導讀》等國學根基巨著。
+          </p>
+        </div>
+        <button onclick="quickFilterTag('文史哲學集成');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-amber-400/20 hover:bg-amber-400 hover:text-stone-900 text-amber-200 text-xs font-bold border border-amber-300/30 transition">
+          進入文史哲學集成 →
+        </button>
+      </div>
+
+      <!-- 專館 4：近現代史料與當代文學館 -->
+      <div class="bg-gradient-to-br from-[#5A2322] to-[#361313] text-amber-50 rounded-2xl p-6 shadow-lg flex flex-col justify-between group hover:-translate-y-1 transition duration-300 border border-rose-400/20">
+        <div>
+          <div class="flex items-center justify-between text-xs text-amber-300/90 mb-3">
+            <span class="px-2.5 py-0.5 rounded-full bg-white/10 font-semibold">第四專館</span>
+            <span class="font-serif-tc">新書與文學經典</span>
+          </div>
+          <h3 class="font-serif-tc text-xl font-black mb-2">民國史料與當代文學館</h3>
+          <p class="text-xs text-stone-300 leading-relaxed mb-4">
+            從無名氏《塔裡的女人》、鄭樑生《中日關係史研究論集》到最新《蔣介石軍事思想研究》、《百年黃埔講義》與當代小說。
+          </p>
+        </div>
+        <button onclick="switchFeaturedTab('choice');scrollToFeatured()" class="w-full py-2.5 rounded-xl bg-amber-400/20 hover:bg-amber-400 hover:text-stone-900 text-amber-200 text-xs font-bold border border-amber-300/30 transition">
+          瀏覽近期焦點新書 →
+        </button>
+      </div>
+    </div>
+
+    <div id="featuredShowcaseAnchor" class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 pt-4 border-t border-brand/15">
       <div>
         <div class="flex items-center gap-2 text-brand text-xs font-bold tracking-widest uppercase mb-1">
-          <span>CURATED RECOMMENDATIONS</span>
+          <span>EDITOR'S CHOICE & CLASSICS</span>
           <span>‧</span>
-          <span>編輯室嚴選</span>
+          <span>3D 立體書封展示</span>
         </div>
         <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50">
           精選書單 ＆ 新書推薦
@@ -382,353 +583,248 @@
       </div>
       <div class="flex flex-wrap items-center gap-2">
         <button onclick="switchFeaturedTab('choice')" id="tabBtnChoice" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand text-white shadow transition">
-          🌟 焦點新書與精選 (Choice)
+          🌟 焦點新書與推薦 (Choice)
         </button>
         <button onclick="switchFeaturedTab('classics')" id="tabBtnClassics" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-brand/20 transition">
-          🏛️ 《文史哲學集成》鎮社名著
+          🏛️ 《文史哲學集成》典藏名著
         </button>
         <button onclick="openModal('newArrivalsModal')" class="px-4 py-2 rounded-full text-xs sm:text-sm font-semibold border border-brand text-brand dark:text-amber-300 hover:bg-brand hover:text-white transition">
-          🎲 隨機探索好書
+          🎲 隨機換一批好書
         </button>
       </div>
     </div>
 
-    <!-- 精選書單卡片網格 -->
-    <div id="featuredBooksGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-      <!-- 由 JS 渲染 -->
-    </div>
+    <div id="featuredBooksGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"></div>
   </section>
 
-  <!-- 新增特色：三大鎮社學術專題策展館 (Curated Academic Collections) -->
-  <section id="curatedSection" class="py-14 bg-[#EFECE4] dark:bg-stone-900/80 border-y border-brand/15">
+  <!-- =================================================================== -->
+  <!-- 第三階段：藏經閣全書庫檢索系統 (支援 3 種視圖切換與研究案頭比對) -->
+  <!-- =================================================================== -->
+  <section id="catalogSection" class="relative z-10 py-16 bg-[#EFE9D8]/50 dark:bg-stone-900/40 border-t border-brand/20 flex-1 w-full">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="text-center max-w-3xl mx-auto mb-10">
-        <span class="text-xs font-bold tracking-widest text-brand uppercase">ACADEMIC PILLARS</span>
-        <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-1">
-          三大鎮社學術專題策展
-        </h2>
-        <p class="text-sm text-stone-600 dark:text-stone-400 mt-2">
-          匯聚臺灣與海內外漢學名家畢生心血，點擊任一專題即可於下方檢索系統直接調閱相關系列叢書。
-        </p>
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-brand uppercase">DIGITAL ARCHIVE & CATALOG</span>
+          <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-50 mt-1">
+            書籍目錄查詢（藏經閣全書庫檢索）
+          </h2>
+          <p class="text-sm text-stone-600 dark:text-stone-400 mt-1">
+            支援書碼、書名、作者、出版年、叢書類別交叉檢索；點擊任一書籍可開啟<strong>「直排宣紙卷軸品讀」</strong>與<strong>「四合一論文引用產生器」</strong>。
+          </p>
+        </div>
+
+        <!-- 資料庫匯入與匯出工具 -->
+        <div class="flex flex-wrap items-center gap-2">
+          <label class="cursor-pointer inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white dark:bg-stone-800 border border-brand/30 hover:bg-brand hover:text-white text-xs font-semibold transition shadow-sm" title="可載入從試算表匯出的 Book_ALL.csv 或 books.json">
+            <span>📂 掛載本地 CSV/JSON 書庫</span>
+            <input type="file" id="csvFileInput" accept=".csv,.json" class="hidden" onchange="handleCustomDataUpload(event)" />
+          </label>
+          <button onclick="exportCurrentCatalogCSV()" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-white dark:bg-stone-800 border border-brand/30 hover:bg-brand hover:text-white text-xs font-semibold transition shadow-sm">
+            <span>⬇️ 匯出檢索結果 (.CSV)</span>
+          </button>
+        </div>
       </div>
 
-      <div class="grid md:grid-cols-3 gap-6">
-        <!-- 專題 1：清史與滿學 -->
-        <div class="bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-md border border-brand/15 flex flex-col justify-between hover:shadow-xl transition">
-          <div>
-            <div class="flex items-center justify-between mb-4">
-              <span class="px-3 py-1 rounded-full bg-brand-indigo/10 text-brand-indigo dark:bg-blue-900/40 dark:text-blue-300 text-xs font-bold">
-                清史檔案 ‧ 滿洲語文
-              </span>
-              <span class="font-serif-tc text-xs text-stone-400">代表學者：莊吉發 教授</span>
-            </div>
-            <h3 class="font-serif-tc text-xl font-bold text-stone-900 dark:text-amber-100 mb-2">
-              清史論集與《滿文原檔》譯注
+      <!-- 進階篩選器面板 -->
+      <div class="bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-lg border border-brand/20 mb-8">
+        <div class="flex flex-wrap items-center justify-between gap-2 mb-4 pb-3 border-b border-stone-200 dark:border-stone-700">
+          <div class="flex items-center gap-2.5">
+            <h3 class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100">
+              🔎 五維度進階檢索器
             </h3>
-            <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-4">
-              本社長期深耕清代檔案與滿學研究，出版莊吉發教授《清史論集》（1–30集）、《滿語叢刊》（50冊）及最新《滿文原檔》選讀譯注系列，為國際滿學研究重鎮。
-            </p>
+            <span id="filterResultCount" class="text-xs font-semibold px-3 py-0.5 rounded-full bg-brand/15 text-brand dark:text-amber-300">
+              載入中...
+            </span>
           </div>
-          <button onclick="quickFilterTag('滿文');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-brand-indigo hover:bg-brand-indigo/90 text-white text-xs font-semibold transition">
-            調閱清史與滿學專書 →
+          <button onclick="resetAllFilters()" class="text-xs text-stone-500 hover:text-brand dark:text-stone-400 underline font-medium">
+            清除所有篩選條件
           </button>
         </div>
 
-        <!-- 專題 2：龍學與古典文論 -->
-        <div class="bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-md border border-brand/15 flex flex-col justify-between hover:shadow-xl transition">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
           <div>
-            <div class="flex items-center justify-between mb-4">
-              <span class="px-3 py-1 rounded-full bg-brand/10 text-brand dark:bg-amber-900/40 dark:text-amber-300 text-xs font-bold">
-                文心雕龍 ‧ 昭明文選
-              </span>
-              <span class="font-serif-tc text-xs text-stone-400">代表學者：王更生、黃季剛、蔡宗陽</span>
-            </div>
-            <h3 class="font-serif-tc text-xl font-bold text-stone-900 dark:text-amber-100 mb-2">
-              當代「龍學」與選學理論殿堂
-            </h3>
-            <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-4">
-              完整收錄王更生《重修增訂文心雕龍研究》、黃春貴《文心雕龍之創作論》、蔡宗陽《文心雕龍與經學》及黃季剛《文選黃氏學》等中古文學批評權威巨著。
-            </p>
+            <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書碼查詢</label>
+            <input type="text" id="filterCode" placeholder="如：00001、65174" oninput="applyCatalogFilters()" class="w-full px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-600 bg-[#F7F3E8]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand" />
           </div>
-          <button onclick="quickFilterTag('文心雕龍');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-brand hover:bg-brand-dark text-white text-xs font-semibold transition">
-            調閱龍學與文學批評專書 →
-          </button>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書名 / 簡介 / ISBN</label>
+            <input type="text" id="filterTitle" placeholder="如：文心雕龍、滿文原檔..." oninput="applyCatalogFilters()" class="w-full px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-600 bg-[#F7F3E8]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">作者關鍵字</label>
+            <input type="text" id="filterAuthor" placeholder="如：莊吉發、王更生、昌彼得..." oninput="applyCatalogFilters()" class="w-full px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-600 bg-[#F7F3E8]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">出版年</label>
+            <input type="text" id="filterYear" placeholder="如：115年、82年、67年..." oninput="applyCatalogFilters()" class="w-full px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-600 bg-[#F7F3E8]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand" />
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書籍類別 (與試算表同步)</label>
+            <select id="filterCategory" onchange="applyCatalogFilters()" class="w-full px-3 py-2 rounded-xl border border-stone-300 dark:border-stone-600 bg-[#F7F3E8]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand">
+              <option value="">全部叢書類別</option>
+            </select>
+          </div>
         </div>
 
-        <!-- 專題 3：目錄文獻與先秦諸子 -->
-        <div class="bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-md border border-brand/15 flex flex-col justify-between hover:shadow-xl transition">
-          <div>
-            <div class="flex items-center justify-between mb-4">
-              <span class="px-3 py-1 rounded-full bg-brand-cinnabar/10 text-brand-cinnabar dark:bg-rose-900/40 dark:text-rose-300 text-xs font-bold">
-                版本目錄 ‧ 兩漢經學
-              </span>
-              <span class="font-serif-tc text-xs text-stone-400">代表學者：昌彼得、李威熊、胡自逢</span>
-            </div>
-            <h3 class="font-serif-tc text-xl font-bold text-stone-900 dark:text-amber-100 mb-2">
-              版本目錄學與先秦兩漢學術
-            </h3>
-            <p class="text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-4">
-              涵蓋昌彼得《中國圖書史略》、《中國目錄學》、胡自逢《先秦諸子易說通考》、李威熊《董仲舒與西漢學術》、《漢書導讀》等國學根基之作。
-            </p>
+        <!-- 第二排：狀態快篩、排序與三種檢視切換 -->
+        <div class="flex flex-wrap items-center justify-between gap-4 mt-4 pt-4 border-t border-stone-200/70 dark:border-stone-700">
+          <div class="flex flex-wrap items-center gap-3.5 text-xs">
+            <label class="inline-flex items-center gap-1.5 cursor-pointer font-medium">
+              <input type="checkbox" id="filterInStockOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
+              <span>僅顯示現貨庫存</span>
+            </label>
+            <label class="inline-flex items-center gap-1.5 cursor-pointer font-medium">
+              <input type="checkbox" id="filterNewOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
+              <span>🔥 新書上市</span>
+            </label>
+            <label class="inline-flex items-center gap-1.5 cursor-pointer font-medium">
+              <input type="checkbox" id="filterBODOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
+              <span>🖨️ BOD 隨需印製經典</span>
+            </label>
+            <label class="inline-flex items-center gap-1.5 cursor-pointer font-medium">
+              <input type="checkbox" id="filterHasReviewOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
+              <span>🖋️ 附編輯室深度書評</span>
+            </label>
           </div>
-          <button onclick="quickFilterTag('文史哲學集成');scrollToSearch()" class="w-full py-2.5 rounded-xl bg-brand-cinnabar hover:bg-brand-cinnabar/90 text-white text-xs font-semibold transition">
-            調閱文史哲學集成專書 →
-          </button>
+
+          <div class="flex flex-wrap items-center gap-3 ml-auto">
+            <select id="sortSelect" onchange="applyCatalogFilters()" class="px-3 py-1.5 rounded-xl border border-stone-300 dark:border-stone-600 bg-white dark:bg-stone-900 text-xs font-medium">
+              <option value="default">預設排序（新書優先 ‧ 書碼序）</option>
+              <option value="code_asc">書碼：由小到大</option>
+              <option value="price_asc">定價：由低到高</option>
+              <option value="price_desc">定價：由高到低</option>
+            </select>
+
+            <div class="inline-flex rounded-xl border border-stone-300 dark:border-stone-600 p-0.5 bg-stone-100 dark:bg-stone-900">
+              <button onclick="setCatalogView('grid')" id="viewBtnGrid" class="px-3 py-1 rounded-lg text-xs font-semibold bg-brand text-white transition">
+                🖼️ 3D 書封卡
+              </button>
+              <button onclick="setCatalogView('shelf')" id="viewBtnShelf" class="px-3 py-1 rounded-lg text-xs font-semibold text-stone-600 dark:text-stone-300 transition">
+                🏛️ 藏書閣書架
+              </button>
+              <button onclick="setCatalogView('table')" id="viewBtnTable" class="px-3 py-1 rounded-lg text-xs font-semibold text-stone-600 dark:text-stone-300 transition">
+                📋 學術目錄表
+              </button>
+            </div>
+          </div>
         </div>
+      </div>
+
+      <!-- 視圖 1：3D 書封卡片視圖 -->
+      <div id="catalogGridView" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+
+      <!-- 視圖 2：木質藏書閣書架視圖 (Unique Bookshelf View) -->
+      <div id="catalogShelfView" class="hidden space-y-8"></div>
+
+      <!-- 視圖 3：高密度學術目錄表格視圖 -->
+      <div id="catalogTableView" class="hidden bg-white dark:bg-stone-800 rounded-2xl shadow-md border border-brand/20 overflow-hidden">
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-sm">
+            <thead>
+              <tr class="bg-[#EFE9D8] dark:bg-stone-900 text-stone-700 dark:text-amber-200 border-b border-brand/20 font-serif-tc">
+                <th class="py-3.5 px-4 whitespace-nowrap">書碼</th>
+                <th class="py-3.5 px-4">書名（點擊可直排品讀）</th>
+                <th class="py-3.5 px-4 whitespace-nowrap">作者</th>
+                <th class="py-3.5 px-4 whitespace-nowrap">出版年</th>
+                <th class="py-3.5 px-4 whitespace-nowrap">叢書類別</th>
+                <th class="py-3.5 px-4 whitespace-nowrap text-right">定價</th>
+                <th class="py-3.5 px-4 whitespace-nowrap text-center">研究與採購操作</th>
+              </tr>
+            </thead>
+            <tbody id="catalogTableBody" class="divide-y divide-stone-200 dark:divide-stone-700"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- 顯示更多書籍按鈕 -->
+      <div class="mt-10 text-center">
+        <button
+          id="loadMoreBooksBtn"
+          onclick="loadMoreCatalogBooks()"
+          class="px-8 py-3.5 rounded-full bg-white dark:bg-stone-800 border-2 border-brand text-brand dark:text-amber-300 hover:bg-brand hover:text-white font-semibold text-sm shadow-sm transition"
+        >
+          顯示更多書籍
+        </button>
+        <p id="catalogPaginationInfo" class="text-xs text-stone-500 mt-2"></p>
       </div>
     </div>
   </section>
 
-  <!-- 書籍目錄查詢 / 完整圖書檢索系統 (100% 對應原站 search 欄位並強化) -->
-  <section id="catalogSection" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex-1 w-full">
-    <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
-      <div>
-        <span class="text-xs font-bold tracking-widest text-brand uppercase">BOOK CATALOG & ARCHIVE</span>
-        <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-50 mt-1">
-          書籍目錄查詢（圖書檢索）
-        </h2>
-        <p class="text-sm text-stone-600 dark:text-stone-400 mt-1">
-          支援書碼、書名、作者、出版年、叢書類別多維度交叉檢索，並提供單書「編輯室學術評析」與「論文引用格式產生器」。
-        </p>
-      </div>
-
-      <!-- 資料庫管理工具：支援同步遠端或手動掛載試算表匯出之 CSV/JSON -->
-      <div class="flex flex-wrap items-center gap-2">
-        <label class="cursor-pointer inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-200/80 dark:bg-stone-800 hover:bg-brand hover:text-white text-xs font-medium transition" title="可載入從「文史哲出版社資料庫」匯出的 Book_ALL.csv 或 books.json">
-          <span>📂 載入本地 CSV/JSON 書庫</span>
-          <input type="file" id="csvFileInput" accept=".csv,.json" class="hidden" onchange="handleCustomDataUpload(event)" />
-        </label>
-        <button onclick="exportCurrentCatalogCSV()" class="inline-flex items-center gap-1.5 px-3.5 py-2 rounded-xl bg-stone-200/80 dark:bg-stone-800 hover:bg-brand hover:text-white text-xs font-medium transition">
-          <span>⬇️ 匯出目前檢索書目 (.CSV)</span>
-        </button>
-      </div>
-    </div>
-
-    <!-- 進階篩選器面板 (對齊原站 searchFilterTitle 及 5 大篩選欄位) -->
-    <div class="bg-white dark:bg-stone-800 rounded-2xl p-6 shadow-md border border-brand/20 mb-8">
-      <div class="flex items-center justify-between mb-4 pb-3 border-b border-stone-200 dark:border-stone-700">
-        <h3 class="font-serif-tc font-bold text-base flex items-center gap-2 text-stone-800 dark:text-amber-100">
-          <span>🔎 進階篩選器</span>
-          <span id="filterResultCount" class="text-xs font-sans font-normal px-2.5 py-0.5 rounded-full bg-brand/10 text-brand dark:text-amber-300">
-            載入中...
-          </span>
-        </h3>
-        <button onclick="resetAllFilters()" class="text-xs text-stone-500 hover:text-brand dark:text-stone-400 underline">
-          重設所有篩選條件
-        </button>
-      </div>
-
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
-        <!-- 1. 書碼查詢 -->
-        <div>
-          <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書碼查詢</label>
-          <input
-            type="text"
-            id="filterCode"
-            placeholder="例如：00001 或 65174"
-            oninput="applyCatalogFilters()"
-            class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-[#F9F6F0]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand"
-          />
-        </div>
-
-        <!-- 2. 書名關鍵字 -->
-        <div>
-          <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書名關鍵字</label>
-          <input
-            type="text"
-            id="filterTitle"
-            placeholder="例如：文心雕龍、滿文原檔..."
-            oninput="applyCatalogFilters()"
-            class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-[#F9F6F0]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand"
-          />
-        </div>
-
-        <!-- 3. 作者關鍵字 -->
-        <div>
-          <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">作者關鍵字</label>
-          <input
-            type="text"
-            id="filterAuthor"
-            placeholder="例如：王更生、莊吉發、昌彼得..."
-            oninput="applyCatalogFilters()"
-            class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-[#F9F6F0]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand"
-          />
-        </div>
-
-        <!-- 4. 出版年 -->
-        <div>
-          <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">出版年</label>
-          <input
-            type="text"
-            id="filterYear"
-            placeholder="例如：115年、82年、67年..."
-            oninput="applyCatalogFilters()"
-            class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-[#F9F6F0]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand"
-          />
-        </div>
-
-        <!-- 5. 書籍類別 (與試算表同步) -->
-        <div>
-          <label class="block text-xs font-semibold text-stone-600 dark:text-stone-300 mb-1">書籍類別 (與試算表同步)</label>
-          <select
-            id="filterCategory"
-            onchange="applyCatalogFilters()"
-            class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-[#F9F6F0]/60 dark:bg-stone-900 text-sm focus:outline-none focus:border-brand"
-          >
-            <option value="">全部叢書類別</option>
-          </select>
-        </div>
-      </div>
-
-      <!-- 第二排：狀態快篩、排序與檢視切換 -->
-      <div class="flex flex-wrap items-center justify-between gap-4 mt-4 pt-4 border-t border-stone-200/70 dark:border-stone-700">
-        <!-- 狀態標籤篩選 -->
-        <div class="flex flex-wrap items-center gap-3 text-xs">
-          <label class="inline-flex items-center gap-1.5 cursor-pointer">
-            <input type="checkbox" id="filterInStockOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
-            <span>僅顯示有庫存</span>
-          </label>
-          <label class="inline-flex items-center gap-1.5 cursor-pointer">
-            <input type="checkbox" id="filterNewOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
-            <span>🔥 新書上市</span>
-          </label>
-          <label class="inline-flex items-center gap-1.5 cursor-pointer">
-            <input type="checkbox" id="filterBODOnly" onchange="applyCatalogFilters()" class="rounded text-brand focus:ring-brand" />
-            <span>🖨️ BOD 隨需印製經典</span>
-          </label>
-        </div>
-
-        <!-- 排序與視圖模式切換 -->
-        <div class="flex items-center gap-3 ml-auto">
-          <select id="sortSelect" onchange="applyCatalogFilters()" class="px-3 py-1.5 rounded-lg border border-stone-300 dark:border-stone-600 bg-white dark:bg-stone-900 text-xs">
-            <option value="default">預設排序（新書優先 ‧ 書碼序）</option>
-            <option value="code_asc">書碼：由小到大</option>
-            <option value="price_asc">定價：由低到高</option>
-            <option value="price_desc">定價：由高到低</option>
-          </select>
-
-          <div class="inline-flex rounded-lg border border-stone-300 dark:border-stone-600 p-0.5 bg-stone-100 dark:bg-stone-900">
-            <button onclick="setCatalogView('grid')" id="viewBtnGrid" class="px-2.5 py-1 rounded-md text-xs font-medium bg-brand text-white transition">
-              🖼️ 書封卡片
-            </button>
-            <button onclick="setCatalogView('table')" id="viewBtnTable" class="px-2.5 py-1 rounded-md text-xs font-medium text-stone-600 dark:text-stone-300 transition">
-              📋 目錄表格
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 檢索結果：書封卡片視圖 (Grid View) -->
-    <div id="catalogGridView" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-      <!-- 由 JS 渲染 -->
-    </div>
-
-    <!-- 檢索結果：傳統學術目錄表格視圖 (Table View - 100% 對應原站 searchTableHeader) -->
-    <div id="catalogTableView" class="hidden bg-white dark:bg-stone-800 rounded-2xl shadow-md border border-brand/20 overflow-hidden">
-      <div class="overflow-x-auto">
-        <table class="w-full text-left border-collapse text-sm">
-          <thead>
-            <tr class="bg-[#EFECE4] dark:bg-stone-900 text-stone-700 dark:text-amber-200 border-b border-brand/20 font-serif-tc">
-              <th class="py-3.5 px-4 whitespace-nowrap">書碼</th>
-              <th class="py-3.5 px-4">書名</th>
-              <th class="py-3.5 px-4 whitespace-nowrap">作者</th>
-              <th class="py-3.5 px-4 whitespace-nowrap">出版年</th>
-              <th class="py-3.5 px-4 whitespace-nowrap">叢書類別</th>
-              <th class="py-3.5 px-4 whitespace-nowrap text-right">定價</th>
-              <th class="py-3.5 px-4 whitespace-nowrap text-center">操作</th>
-            </tr>
-          </thead>
-          <tbody id="catalogTableBody" class="divide-y divide-stone-200 dark:divide-stone-700">
-            <!-- 由 JS 渲染 -->
-          </tbody>
-        </table>
-      </div>
-    </div>
-
-    <!-- 顯示更多書籍按鈕 (對應原站 searchBtnMore) -->
-    <div class="mt-10 text-center">
-      <button
-        id="loadMoreBooksBtn"
-        onclick="loadMoreCatalogBooks()"
-        class="px-8 py-3.5 rounded-full bg-white dark:bg-stone-800 border-2 border-brand text-brand dark:text-amber-300 hover:bg-brand hover:text-white font-semibold text-sm shadow-sm transition"
-      >
-        顯示更多書籍
-      </button>
-      <p id="catalogPaginationInfo" class="text-xs text-stone-500 mt-2"></p>
-    </div>
-  </section>
-
-  <!-- 半世紀出版大事記與 BOD 隨需印製服務說明區 -->
-  <section class="py-14 bg-[#F2EFE7] dark:bg-stone-900/60 border-t border-brand/15">
+  <!-- =================================================================== -->
+  <!-- 第四階段：半世紀歷史長卷時間軸 & 大學圖書館/BOD 採購指南 -->
+  <!-- =================================================================== -->
+  <section class="relative z-10 py-16 bg-[#F2ECE0] dark:bg-stone-900/80 border-t border-brand/20">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid lg:grid-cols-12 gap-10 items-start">
-        <!-- 左側：半世紀歷史時間軸 -->
+        <!-- 左側：半世紀出版歷史時間軸 -->
         <div class="lg:col-span-7">
-          <span class="text-xs font-bold tracking-widest text-brand uppercase">HERITAGE TIMELINE</span>
-          <h3 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-50 mt-1 mb-6">
-            文史哲半世紀學術傳承軌跡（1971–2026）
+          <span class="text-xs font-bold tracking-widest text-brand uppercase">55 YEARS OF HERITAGE</span>
+          <h3 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-1 mb-6">
+            文史哲半世紀學術傳承長卷（1971–2026）
           </h3>
-          <div class="space-y-5 border-l-2 border-brand/40 pl-5">
-            <div class="relative">
-              <span class="w-3 h-3 rounded-full bg-brand absolute -left-[27px] top-1.5"></span>
+          <div class="space-y-5 border-l-2 border-brand/40 pl-6">
+            <div class="relative bg-white/80 dark:bg-stone-800/80 p-4 rounded-2xl border border-brand/15 shadow-sm">
+              <span class="w-3.5 h-3.5 rounded-full bg-brand absolute -left-[31px] top-5 ring-4 ring-[#F2ECE0] dark:ring-stone-900"></span>
               <div class="text-xs font-bold text-brand">民國 60 年（1971 年 2 月 16 日）</div>
-              <div class="font-serif-tc font-bold text-stone-900 dark:text-amber-100">文史哲出版社正式創立</div>
-              <p class="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                創辦人彭正雄先生師事臺大教授吳相湘，並獲毛子水、鄭騫、高明、嚴靈峰、戴君仁、夏德儀、昌彼得、林尹等名師指導，立志投身古籍整理與學術出版事業。
+              <div class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100 mt-0.5">文史哲出版社正式創立</div>
+              <p class="text-xs text-stone-600 dark:text-stone-300 mt-1 leading-relaxed">
+                創辦人彭正雄先生師事臺大吳相湘教授，並承毛子水、鄭騫、高明、嚴靈峰、戴君仁、夏德儀、昌彼得、林尹等名師薰陶，立志以古籍整理與純學術專書傳續中華文脈。
               </p>
             </div>
-            <div class="relative">
-              <span class="w-3 h-3 rounded-full bg-brand absolute -left-[27px] top-1.5"></span>
+
+            <div class="relative bg-white/80 dark:bg-stone-800/80 p-4 rounded-2xl border border-brand/15 shadow-sm">
+              <span class="w-3.5 h-3.5 rounded-full bg-brand absolute -left-[31px] top-5 ring-4 ring-[#F2ECE0] dark:ring-stone-900"></span>
               <div class="text-xs font-bold text-brand">民國 60–80 年代</div>
-              <div class="font-serif-tc font-bold text-stone-900 dark:text-amber-100">《文史哲學集成》與大學研究論著奠基</div>
-              <p class="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                系統性出版昌彼得《中國圖書史略》、王更生《文心雕龍研究》、黃季剛《文選黃氏學》及無名氏《塔裡的女人》等文學與國學經典。
+              <div class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100 mt-0.5">《文史哲學集成》奠定台灣漢學出版基石</div>
+              <p class="text-xs text-stone-600 dark:text-stone-300 mt-1 leading-relaxed">
+                系統性出版昌彼得《中國圖書史略》、王更生《文心雕龍研究》、黃季剛《文選黃氏學》、無名氏《塔裡的女人》及各大專院校博士暨升等專著。
               </p>
             </div>
-            <div class="relative">
-              <span class="w-3 h-3 rounded-full bg-brand absolute -left-[27px] top-1.5"></span>
+
+            <div class="relative bg-white/80 dark:bg-stone-800/80 p-4 rounded-2xl border border-brand/15 shadow-sm">
+              <span class="w-3.5 h-3.5 rounded-full bg-brand absolute -left-[31px] top-5 ring-4 ring-[#F2ECE0] dark:ring-stone-900"></span>
               <div class="text-xs font-bold text-brand">民國 81–85 年（1992 & 1996 年）</div>
-              <div class="font-serif-tc font-bold text-stone-900 dark:text-amber-100">改組有限公司 ‧ 榮獲中國文藝工作獎章</div>
-              <p class="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                1992 年 3 月 11 日改組為「文史哲出版社有限公司」；1996 年創辦人彭正雄先生榮獲中國文藝協會頒贈「中國文藝工作獎章（文學出版獎）」。
+              <div class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100 mt-0.5">改組有限公司 ‧ 榮獲中國文藝工作獎章</div>
+              <p class="text-xs text-stone-600 dark:text-stone-300 mt-1 leading-relaxed">
+                1992 年改組為「文史哲出版社有限公司」；1996 年創辦人彭正雄先生榮獲中國文藝協會頒贈「中國文藝工作獎章（文學出版獎）」，肯定本社對台灣學術與文藝出版之貢獻。
               </p>
             </div>
-            <div class="relative">
-              <span class="w-3 h-3 rounded-full bg-brand-cinnabar absolute -left-[27px] top-1.5"></span>
+
+            <div class="relative bg-white/80 dark:bg-stone-800/80 p-4 rounded-2xl border border-brand-cinnabar/30 shadow-sm">
+              <span class="w-3.5 h-3.5 rounded-full bg-brand-cinnabar absolute -left-[31px] top-5 ring-4 ring-[#F2ECE0] dark:ring-stone-900"></span>
               <div class="text-xs font-bold text-brand-cinnabar">民國 115 年（2026 年）</div>
-              <div class="font-serif-tc font-bold text-stone-900 dark:text-amber-100">數位典藏轉型與全球線上書庫啟用</div>
-              <p class="text-xs text-stone-600 dark:text-stone-400 mt-0.5">
-                累積出版逾 2,630 種專書，全面啟動線上書城檢索、BOD 隨需印製絕版重現服務與海外學術網路行銷。
+              <div class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100 mt-0.5">數位藏經閣轉型 ‧ BOD 隨需印製全球服務</div>
+              <p class="text-xs text-stone-600 dark:text-stone-300 mt-1 leading-relaxed">
+                現任彭雅雲社長率領團隊完成逾 2,630 種書目數位化檢索、直排卷軸線上導讀與 BOD 絕版重現技術，服務海內外漢學研究機構與愛書人。
               </p>
             </div>
           </div>
         </div>
 
-        <!-- 右側：BOD 隨需印製與機構採購服務說明 -->
         <div class="lg:col-span-5 space-y-5">
-          <div class="bg-white dark:bg-stone-800 p-6 rounded-2xl shadow-sm border border-brand/20">
-            <div class="flex items-center gap-2 text-brand font-serif-tc font-bold text-lg mb-2">
-              <span>🖨️ 什麼是「BOD 隨需印製」專書？</span>
+          <div class="bg-white dark:bg-stone-800 p-6 rounded-2xl shadow-md border border-brand/20">
+            <div class="flex items-center justify-between mb-2">
+              <h4 class="font-serif-tc font-bold text-lg text-brand dark:text-amber-400">🖨️ 什麼是「BOD 隨需印製」專書？</h4>
+              <span class="seal-stamp text-[10px] px-1.5 py-0.5">絕版重現</span>
             </div>
             <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed">
-              書名標註有 <code class="px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900/50 text-brand-dark dark:text-amber-200 font-semibold">(BOD)</code>（Book On Demand）之書籍，為本社典藏之早期重要學術論著。為使珍貴學術文獻不致絕版斷流，本社採用高品質數位隨需印製技術，確保海內外研究者皆能持續購得完整紙本典籍。
+              書名標註有 <code class="px-1.5 py-0.5 rounded bg-amber-100 dark:bg-amber-900/50 text-brand-dark dark:text-amber-200 font-semibold">(BOD)</code>（Book On Demand）之書籍，為本社典藏之歷年重要學術專論。為使珍貴文獻不致斷流，本社採用數位微噴隨需印製技術，確保海內外學者皆能購得高品質紙本典籍。
             </p>
           </div>
 
-          <div class="bg-white dark:bg-stone-800 p-6 rounded-2xl shadow-sm border border-brand/20">
-            <div class="flex items-center gap-2 text-brand-indigo dark:text-blue-300 font-serif-tc font-bold text-lg mb-2">
-              <span>🏛️ 大學圖書館與研究計畫採購服務</span>
-            </div>
+          <div class="bg-white dark:bg-stone-800 p-6 rounded-2xl shadow-md border border-brand/20">
+            <h4 class="font-serif-tc font-bold text-lg text-brand-indigo dark:text-blue-300 mb-2">
+              🏛️ 大學圖書館薦購 ＆ 國科會計畫核銷專區
+            </h4>
             <p class="text-xs sm:text-sm text-stone-600 dark:text-stone-300 leading-relaxed mb-4">
-              本社提供國內外大學圖書館、中研院及各研究機構專書批購、國科會／教育部研究計畫核銷發票開立，以及海外郵寄報價服務。
+              本網站專為各大學院校教授、研究員與圖書館員設計<strong>「一鍵列印正式採購估價單」</strong>與<strong>「匯出標準書目 CSV」</strong>功能，支援學校統編抬頭與研究計畫報帳核銷。
             </p>
             <div class="flex flex-wrap gap-2">
-              <button onclick="openModal('wishlistModal')" class="px-4 py-2 rounded-xl bg-brand-indigo text-white text-xs font-semibold hover:opacity-90 transition">
-                開啟學術收藏／列印採購單
+              <button onclick="openModal('compareModal')" class="px-4 py-2.5 rounded-xl bg-brand-indigo text-white text-xs font-semibold hover:opacity-90 transition">
+                ⚖️ 開啟研究比對案頭
               </button>
-              <button onclick="openModal('contactModal')" class="px-4 py-2 rounded-xl border border-stone-300 dark:border-stone-600 text-xs font-semibold hover:border-brand transition">
-                聯繫專案採購客服
+              <button onclick="openModal('wishlistModal')" class="px-4 py-2.5 rounded-xl border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand/10 transition">
+                🔖 匯出圖書館薦購單
               </button>
             </div>
           </div>
@@ -737,14 +833,12 @@
     </div>
   </section>
 
-  <!-- 頁尾 (Footer - 100% 完整保留原站 footer 所有資訊與欄位) -->
-  <footer class="bg-[#1A1412] text-stone-300 pt-14 pb-10 border-t-4 border-brand">
+  <footer class="relative z-10 bg-[#16110E] text-stone-300 pt-14 pb-10 border-t-4 border-brand">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-10 border-b border-stone-800">
-        <!-- 品牌簡介 (4 cols) -->
         <div class="lg:col-span-5 space-y-4">
           <div class="flex items-center gap-3">
-            <div class="w-10 h-10 rounded bg-brand text-white flex items-center justify-center font-serif-tc font-black text-lg">
+            <div class="w-10 h-10 rounded-lg bg-brand text-white flex items-center justify-center font-serif-tc font-black text-lg">
               文
             </div>
             <div>
@@ -753,19 +847,16 @@
             </div>
           </div>
           <p class="text-sm text-stone-400 leading-relaxed">
-            創立於1971年，以出版大學院校研究論著及文史書籍為主。在多位名師的傳授與薰陶下，致力為文化出版事業奉獻，傳承千年智慧。
+            創立於1971年2月16日，以出版大學院校研究論著及文史哲書籍為主。在多位國學名師的傳授與薰陶下，致力為文化出版事業奉獻，傳承千年智慧。
           </p>
-          <div class="pt-1">
-            <button onclick="openModal('aboutModal')" class="inline-flex items-center gap-2 text-amber-400 hover:text-amber-300 text-sm font-semibold">
-              <span>閱讀完整品牌故事</span>
-              <span>→</span>
-            </button>
+          <div class="flex flex-wrap gap-3 pt-1">
+            <button onclick="openModal('aboutModal')" class="text-amber-400 hover:text-amber-300 text-xs font-semibold">閱讀完整品牌故事 →</button>
+            <button onclick="openModal('presidentModal')" class="text-amber-400 hover:text-amber-300 text-xs font-semibold">關於創辦人與社長 →</button>
           </div>
         </div>
 
-        <!-- 聯絡我們 (4 cols) -->
         <div class="lg:col-span-4 space-y-2.5 text-sm">
-          <h4 class="font-serif-tc text-base font-bold text-amber-100 mb-3">聯絡我們</h4>
+          <h4 class="font-serif-tc text-base font-bold text-amber-100 mb-3">門市與聯絡資訊</h4>
           <p class="flex items-start gap-2">
             <span class="text-amber-400 shrink-0">📍</span>
             <span>100040 台北市中正區羅斯福路一段72巷4號</span>
@@ -776,7 +867,7 @@
           </p>
           <p class="flex items-center gap-2">
             <span class="text-amber-400 shrink-0">📠</span>
-            <span>Fax: 886-2-2396-5656</span>
+            <span>傳真：886-2-2396-5656</span>
           </p>
           <p class="flex items-center gap-2">
             <span class="text-amber-400 shrink-0">✉️</span>
@@ -784,41 +875,25 @@
           </p>
           <p class="flex items-center gap-2 text-stone-400 text-xs pt-1">
             <span>🕒</span>
-            <span>營業時間：週一到週五 AM9:00~PM6:00</span>
+            <span>營業時間：週一到週五 AM 9:00 ~ PM 6:00</span>
           </p>
         </div>
 
-        <!-- 好站推薦與快速連結 (3 cols) -->
         <div class="lg:col-span-3 space-y-3 text-sm">
-          <h4 class="font-serif-tc text-base font-bold text-amber-100 mb-3">好站推薦 ＆ 服務</h4>
-          <ul class="space-y-2">
-            <li>
-              <a href="https://www.facebook.com/profile.php?id=61590146114229&locale=zh_TW" target="_blank" rel="noopener" class="hover:text-amber-300 flex items-center gap-2">
-                <span>📘</span><span>官方臉書粉絲專頁</span>
-              </a>
-            </li>
-            <li>
-              <button onclick="openModal('presidentModal')" class="hover:text-amber-300 flex items-center gap-2">
-                <span>🖋️</span><span>關於創辦人與社長</span>
-              </button>
-            </li>
-            <li>
-              <button onclick="openModal('orderLookupModal')" class="hover:text-amber-300 flex items-center gap-2">
-                <span>📦</span><span>線上訂單進度查詢</span>
-              </button>
-            </li>
-            <li>
-              <button onclick="openModal('contactModal')" class="hover:text-amber-300 flex items-center gap-2">
-                <span>💬</span><span>客服與建議反映</span>
-              </button>
-            </li>
+          <h4 class="font-serif-tc text-base font-bold text-amber-100 mb-3">讀者與學者服務</h4>
+          <ul class="space-y-2 text-xs sm:text-sm">
+            <li><a href="https://www.facebook.com/profile.php?id=61590146114229&locale=zh_TW" target="_blank" rel="noopener" class="hover:text-amber-300">📘 官方 Facebook 粉絲專頁</a></li>
+            <li><button onclick="openModal('orderLookupModal')" class="hover:text-amber-300">📦 線上訂單進度查詢</button></li>
+            <li><button onclick="openModal('compareModal')" class="hover:text-amber-300">⚖️ 學術專書比對案頭</button></li>
+            <li><button onclick="openModal('wishlistModal')" class="hover:text-amber-300">🔖 圖書館薦購單匯出</button></li>
+            <li><button onclick="openModal('contactModal')" class="hover:text-amber-300">💬 客服、尋書與出書投稿</button></li>
           </ul>
         </div>
       </div>
 
       <div class="pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
         <p>© 1971–2026 文史哲出版社有限公司 The Liberal Arts Press. All Rights Reserved.</p>
-        <p class="font-serif-tc tracking-widest text-stone-400">傳承文化 ‧ 創新閱讀</p>
+        <p class="font-serif-tc tracking-widest text-stone-400">傳承文化 ‧ 創新閱讀 ‧ 典藏智慧</p>
       </div>
     </div>
   </footer>
@@ -827,26 +902,46 @@
   <!-- 彈窗模組群 (Modals & Drawers) -->
   <!-- =================================================================== -->
 
-  <!-- 1. 書籍詳情與學術評析彈窗 (Book Detail + Academic Review + Citation Generator) -->
-  <div id="bookDetailModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-4xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
-      <button onclick="closeModal('bookDetailModal')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-stone-200 dark:bg-stone-800 hover:bg-brand hover:text-white flex items-center justify-center text-lg transition">✕</button>
+  <!-- 1. 書籍詳情彈窗（含「現代橫排 / 直排宣紙卷軸品讀」切換 ＋ 蓋印特效 ＋ 論文引用產生器） -->
+  <div id="bookDetailModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-4xl w-full p-5 sm:p-8 shadow-2xl border border-brand/30 max-h-[92vh] overflow-y-auto relative">
+      <button onclick="closeModal('bookDetailModal')" class="absolute top-4 right-4 w-9 h-9 rounded-full bg-stone-200 dark:bg-stone-800 hover:bg-brand hover:text-white flex items-center justify-center text-base font-bold transition">✕</button>
       <div id="bookDetailContent"></div>
     </div>
   </div>
 
-  <!-- 2. 關於我們 / 品牌故事彈窗 (100% 完整保留原站 about 欄位文字) -->
-  <div id="aboutModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-3xl w-full p-6 sm:p-10 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
-      <button onclick="closeModal('aboutModal')" class="absolute top-5 right-5 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold hover:bg-brand hover:text-white transition">關閉 ✕</button>
-
-      <div class="flex items-center gap-2 text-brand text-xs font-bold tracking-widest uppercase mb-1">
-        <span>OUR STORY & HERITAGE</span>
+  <!-- 2. 獨一無二特色：學術比對案頭彈窗 (Academic Comparison Desk Modal) -->
+  <div id="compareModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-5xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
+      <div class="flex flex-wrap items-center justify-between gap-4 pb-4 mb-6 border-b border-brand/20">
+        <div>
+          <span class="text-xs font-bold tracking-widest text-brand uppercase">SCHOLAR'S COMPARISON DESK</span>
+          <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100">
+            ⚖️ 學術研究比對案頭（最多可同時比對 3 本專書）
+          </h2>
+        </div>
+        <div class="flex items-center gap-2">
+          <button onclick="copyAllComparedCitations()" class="px-4 py-2 rounded-full bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
+            📋 一鍵複製合輯參考文獻
+          </button>
+          <button onclick="clearCompareList()" class="px-3 py-2 rounded-full border border-stone-300 dark:border-stone-700 text-xs">
+            清空案頭
+          </button>
+          <button onclick="closeModal('compareModal')" class="px-3 py-2 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">
+            關閉 ✕
+          </button>
+        </div>
       </div>
-      <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-100 mb-6 pb-4 border-b border-brand/20">
-        品牌故事
-      </h2>
+      <div id="compareDeskContainer"></div>
+    </div>
+  </div>
 
+  <!-- 3. 關於我們（品牌故事）彈窗 -->
+  <div id="aboutModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-3xl w-full p-6 sm:p-10 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
+      <button onclick="closeModal('aboutModal')" class="absolute top-5 right-5 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold hover:bg-brand hover:text-white transition">關閉 ✕</button>
+      <span class="text-xs font-bold tracking-widest text-brand uppercase">OUR STORY & HERITAGE</span>
+      <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-100 mb-6 pb-4 border-b border-brand/20">品牌故事</h2>
       <div class="space-y-6 text-sm sm:text-base text-stone-700 dark:text-stone-300 leading-relaxed">
         <div>
           <h3 class="font-serif-tc text-xl font-bold text-brand dark:text-amber-400 mb-2">出版社簡介</h3>
@@ -857,24 +952,21 @@
             本社創辦人彭正雄先生，曾師事台大教授吳相湘，並多次向毛子水、鄭騫、高明等學者請益，亦獲嚴靈峰、戴君仁、夏德儀、昌彼得、林尹等名師指導。在諸位學者的薰陶與傳授之下，逐步培養出對古籍整理的深厚興趣，並奠定投身文化出版事業的志向。
           </p>
         </div>
-
         <div>
           <h3 class="font-serif-tc text-xl font-bold text-brand dark:text-amber-400 mb-2">經營理念</h3>
           <p>
             文史哲出版社以出版「文史圖書」及「學術專業圖書」為核心宗旨，目前已累積出版書籍約2,630種，其中逾2,100種仍可供讀者選購。由於學術出版品在海外行銷較具挑戰，本社現正積極拓展網路通路與電子書市場，期望進一步打開華文地區之出版版圖。
           </p>
         </div>
-
-        <div class="bg-white dark:bg-stone-800 p-5 rounded-xl border border-brand/15">
+        <div class="bg-white dark:bg-stone-800 p-5 rounded-2xl border border-brand/15">
           <h3 class="font-serif-tc text-xl font-bold text-brand dark:text-amber-400 mb-3">代表作家與學術著作</h3>
-          <p class="text-xs text-stone-500 mb-3">本社出版眾多知名作家與學者作品，包括：</p>
           <div class="grid sm:grid-cols-2 gap-4 text-sm">
             <div>
               <h4 class="font-bold text-stone-900 dark:text-amber-100 mb-1">🖋️ 文學作家：</h4>
               <ul class="list-disc list-inside space-y-1 text-stone-600 dark:text-stone-300">
                 <li>無名氏（卜乃夫）《塔裡的女人》</li>
                 <li>馮馮《霧航》</li>
-                <li>紀弦、羅門、辛鬱等現代詩與文學名家</li>
+                <li>紀弦、羅門、辛鬱、紀州人等文學名家</li>
               </ul>
             </div>
             <div>
@@ -890,28 +982,18 @@
           </div>
         </div>
       </div>
-
-      <div class="mt-8 text-center">
-        <button onclick="closeModal('aboutModal');scrollToSearch()" class="px-8 py-3 rounded-full bg-brand hover:bg-brand-dark text-white font-semibold text-sm shadow transition">
-          開始探索好書
-        </button>
-      </div>
     </div>
   </div>
 
-  <!-- 3. 關於社長彈窗 (對應原站 menuPresident) -->
-  <div id="presidentModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-2xl w-full p-6 sm:p-10 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
+  <!-- 4. 關於社長彈窗 -->
+  <div id="presidentModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-2xl w-full p-6 sm:p-10 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
       <button onclick="closeModal('presidentModal')" class="absolute top-5 right-5 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold hover:bg-brand hover:text-white transition">關閉 ✕</button>
-
       <span class="text-xs font-bold tracking-widest text-brand uppercase">FOUNDER & PRESIDENT</span>
-      <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-100 mt-1 mb-6 pb-4 border-b border-brand/20">
-        關於社長與創社精神
-      </h2>
-
+      <h2 class="font-serif-tc text-3xl font-black text-stone-900 dark:text-amber-100 mt-1 mb-6 pb-4 border-b border-brand/20">關於社長與創社精神</h2>
       <div class="space-y-4 text-sm sm:text-base text-stone-700 dark:text-stone-300 leading-relaxed">
         <p>
-          <strong>創辦人彭正雄先生</strong>於 1971 年 2 月 16 日創立「文史哲出版社」。早年親炙臺大史學名師吳相湘教授，並常向毛子水、鄭騫、高明、嚴靈峰、戴君仁、夏德儀、昌彼得、林尹等國學與文史大家請益，深感古籍整理與純學術專書乃民族文化之根基。
+          <strong>創辦人彭正雄先生</strong>於 1971 年 2 月 16 日創立「文史哲出版社」。早年親炙臺大史學名師吳相湘教授，並常向毛子水、鄭騫、高明、嚴靈峰、戴君仁、夏德儀、昌彼得、林尹等國學大家請益，深感古籍整理與純學術專書乃民族文化之根基。
         </p>
         <p>
           創立初期以印行明版善本書與《中國文史哲資料叢刊》為主，其後開闢《文史哲學集成》，為無數臺灣與海內外文史哲學者出版專書論著。1996 年，彭正雄先生因長期對學術與文學出版之卓越貢獻，榮獲中國文藝協會頒贈<strong>「中國文藝工作獎章（文學出版獎）」</strong>。
@@ -923,55 +1005,39 @@
     </div>
   </div>
 
-  <!-- 4. 新書上市 - 隨機推薦彈窗 (對應原站 newArrivalsTitle / newArrivalsBtnRefresh) -->
-  <div id="newArrivalsModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-4xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
+  <!-- 5. 新書上市 - 隨機推薦彈窗 -->
+  <div id="newArrivalsModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-4xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 max-h-[90vh] overflow-y-auto relative">
       <div class="flex flex-wrap items-center justify-between gap-4 pb-4 mb-6 border-b border-brand/20">
         <div>
-          <span class="text-xs font-bold tracking-widest text-brand uppercase">NEW ARRIVALS & DISCOVERY</span>
-          <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100">
-            新書上市 ＆ 隨機推薦
-          </h2>
+          <span class="text-xs font-bold tracking-widest text-brand uppercase">NEW ARRIVALS & SERENDIPITY</span>
+          <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100">✨ 新書上市 ＆ 隨機開卷推薦</h2>
         </div>
         <div class="flex items-center gap-2">
-          <button onclick="renderRandomDiscovery()" class="px-4 py-2 rounded-full bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
-            🔄 再換一批看看
-          </button>
-          <button onclick="closeModal('newArrivalsModal')" class="px-3 py-2 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">
-            關閉 ✕
-          </button>
+          <button onclick="renderRandomDiscovery()" class="px-4 py-2 rounded-full bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">🔄 再換一批看看</button>
+          <button onclick="closeModal('newArrivalsModal')" class="px-3 py-2 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">關閉 ✕</button>
         </div>
       </div>
-
-      <div id="randomDiscoveryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        <!-- 由 JS 渲染 -->
-      </div>
+      <div id="randomDiscoveryGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
     </div>
   </div>
 
-  <!-- 5. 我的書包與結帳系統彈窗 (100% 對應原站 cart 欄位) -->
-  <div id="cartModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex justify-end">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 w-full max-w-xl h-full shadow-2xl border-l border-brand/20 flex flex-col justify-between overflow-hidden">
-      <!-- 書包標頭 -->
+  <!-- 6. 我的書包與結帳抽屜 -->
+  <div id="cartModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex justify-end">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 w-full max-w-xl h-full shadow-2xl border-l border-brand/20 flex flex-col justify-between overflow-hidden">
       <div class="p-6 bg-white dark:bg-stone-800 border-b border-stone-200 dark:border-stone-700 flex items-center justify-between">
         <div>
           <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100">🎒 我的書包</h2>
           <p id="cartSummarySubtext" class="text-xs text-stone-500 mt-0.5">共 0 本書</p>
         </div>
-        <button onclick="closeModal('cartModal')" class="px-3 py-1.5 rounded-full bg-stone-200 dark:bg-stone-700 text-xs font-semibold hover:bg-brand hover:text-white transition">
-          關閉 ✕
-        </button>
+        <button onclick="closeModal('cartModal')" class="px-3 py-1.5 rounded-full bg-stone-200 dark:bg-stone-700 text-xs font-semibold hover:bg-brand hover:text-white transition">關閉 ✕</button>
       </div>
 
-      <!-- 書包內容與結帳表單 -->
       <div class="p-6 overflow-y-auto flex-1 space-y-6">
         <div id="cartItemsContainer" class="space-y-3"></div>
 
-        <!-- 填寫收件資訊表單 -->
         <form id="checkoutForm" onsubmit="submitOrder(event)" class="bg-white dark:bg-stone-800 p-5 rounded-2xl border border-brand/20 space-y-4">
-          <h3 class="font-serif-tc text-lg font-bold text-stone-900 dark:text-amber-100 border-b border-stone-200 dark:border-stone-700 pb-2">
-            填寫收件資訊
-          </h3>
+          <h3 class="font-serif-tc text-lg font-bold text-stone-900 dark:text-amber-100 border-b border-stone-200 dark:border-stone-700 pb-2">填寫收件與報帳資訊</h3>
           <div class="grid sm:grid-cols-2 gap-3">
             <div>
               <label class="block text-xs font-semibold mb-1">收件人姓名 *</label>
@@ -988,7 +1054,7 @@
           </div>
           <div>
             <label class="block text-xs font-semibold mb-1">詳細寄送地址 *</label>
-            <input type="text" id="orderAddress" required placeholder="若選擇店取可填寫「門市自取（羅斯福路一段72巷4號）」" class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-transparent text-sm" />
+            <input type="text" id="orderAddress" required placeholder="若選擇店取可填「門市自取（羅斯福路一段72巷4號）」" class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-transparent text-sm" />
           </div>
           <div>
             <label class="block text-xs font-semibold mb-1">付款方式 *</label>
@@ -999,11 +1065,11 @@
             </select>
           </div>
           <div>
-            <label class="block text-xs font-semibold mb-1">寄件備註 / 抬頭統編 (選填)</label>
-            <textarea id="orderMemo" rows="2" placeholder="若有特殊收件需求、學校研究計畫報帳統編與抬頭請填寫於此..." class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-transparent text-sm"></textarea>
+            <label class="block text-xs font-semibold mb-1">寄件備註 / 大學計畫報帳抬頭與統編 (選填)</label>
+            <textarea id="orderMemo" rows="2" placeholder="如需開立學校或研究機構三聯式發票，請填寫單位抬頭與統一編號..." class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-transparent text-sm"></textarea>
           </div>
 
-          <div class="pt-3 border-t border-stone-200 dark:border-stone-700 flex items-center justify-between">
+          <div class="pt-3 border-t border-stone-200 dark:border-stone-700 flex flex-wrap items-center justify-between gap-3">
             <div>
               <span class="text-xs text-stone-500">總計金額</span>
               <div id="cartTotalAmount" class="font-serif-tc text-2xl font-black text-brand dark:text-amber-400">NT$ 0</div>
@@ -1022,13 +1088,12 @@
     </div>
   </div>
 
-  <!-- 6. 訂單查詢系統彈窗 (Order Lookup Modal) -->
-  <div id="orderLookupModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative">
+  <!-- 7. 訂單查詢彈窗 -->
+  <div id="orderLookupModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-lg w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative">
       <button onclick="closeModal('orderLookupModal')" class="absolute top-4 right-4 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">關閉 ✕</button>
       <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100 mb-2">📦 訂單狀態查詢</h2>
-      <p class="text-xs text-stone-500 mb-4">請輸入您的訂單編號（如：<code class="text-brand">ORD-0060</code>）或下單時的手機號碼／Email。</p>
-
+      <p class="text-xs text-stone-500 mb-4">請輸入訂單編號（如範例：<code class="text-brand font-bold">ORD-0060</code> 或 <code class="text-brand font-bold">ORD-0059</code>）或下單電話。</p>
       <div class="flex gap-2 mb-5">
         <input type="text" id="orderQueryInput" placeholder="輸入訂單編號或聯絡電話..." class="flex-1 px-3.5 py-2.5 rounded-xl border border-stone-300 dark:border-stone-600 bg-white dark:bg-stone-800 text-sm" />
         <button onclick="lookupOrder()" class="px-5 py-2.5 rounded-xl bg-brand text-white text-sm font-semibold hover:bg-brand-dark transition">查詢</button>
@@ -1037,21 +1102,17 @@
     </div>
   </div>
 
-  <!-- 7. 客服與建議 / 聯繫我們彈窗 (對應原站 csTitle / csNamePlaceholder 等欄位) -->
-  <div id="contactModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative">
+  <!-- 8. 客服與尋書建議彈窗 -->
+  <div id="contactModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative">
       <button onclick="closeModal('contactModal')" class="absolute top-4 right-4 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">關閉 ✕</button>
-      <span class="text-xs font-bold tracking-widest text-brand uppercase">CUSTOMER SERVICE</span>
-      <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100 mt-1 mb-4">
-        客服與建議（聯繫我們）
-      </h2>
-
+      <span class="text-xs font-bold tracking-widest text-brand uppercase">CUSTOMER SERVICE & INQUIRY</span>
+      <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100 mt-1 mb-4">客服與建議（聯繫我們）</h2>
       <div class="bg-white dark:bg-stone-800 p-4 rounded-xl border border-brand/15 text-xs space-y-1.5 mb-5 text-stone-600 dark:text-stone-300">
         <div>📍 <strong>門市地址：</strong>100040 台北市中正區羅斯福路一段72巷4號</div>
         <div>📞 <strong>聯絡電話：</strong>886-2-2351-1028 ／ 傳真：886-2-2396-5656</div>
         <div>✉️ <strong>電子信箱：</strong>lapentw@gmail.com（週一至週五 AM9:00~PM6:00）</div>
       </div>
-
       <form onsubmit="submitCustomerService(event)" class="space-y-3.5 text-sm">
         <div>
           <label class="block text-xs font-semibold mb-1">您的稱呼 *</label>
@@ -1068,47 +1129,38 @@
           </div>
         </div>
         <div>
-          <label class="block text-xs font-semibold mb-1">反映內容（尋書、BOD 印製詢問、圖書館採購、出書投稿） *</label>
+          <label class="block text-xs font-semibold mb-1">反映內容（尋書、BOD 印製詢問、圖書館採購、學術專著投稿） *</label>
           <textarea id="csMessage" rows="4" required placeholder="請問您有什麼建議或問題想反映？" class="w-full px-3 py-2 rounded-lg border border-stone-300 dark:border-stone-600 bg-white dark:bg-stone-800"></textarea>
         </div>
-        <button type="submit" id="csSubmitBtn" class="w-full py-3 rounded-xl bg-brand hover:bg-brand-dark text-white font-semibold shadow transition">
-          送出反映
-        </button>
+        <button type="submit" id="csSubmitBtn" class="w-full py-3 rounded-xl bg-brand hover:bg-brand-dark text-white font-semibold shadow transition">送出反映</button>
       </form>
     </div>
   </div>
 
-  <!-- 8. 學術收藏單 / 圖書館薦購清單彈窗 -->
-  <div id="wishlistModal" class="fixed inset-0 z-50 hidden bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
-    <div class="bg-[#F9F6F0] dark:bg-stone-900 rounded-2xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative max-h-[90vh] overflow-y-auto">
+  <!-- 9. 學術收藏與圖書館薦購單彈窗 -->
+  <div id="wishlistModal" class="fixed inset-0 z-50 hidden bg-black/65 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="bg-[#F7F3E8] dark:bg-stone-900 rounded-3xl max-w-2xl w-full p-6 sm:p-8 shadow-2xl border border-brand/30 relative max-h-[90vh] overflow-y-auto">
       <button onclick="closeModal('wishlistModal')" class="absolute top-4 right-4 px-3 py-1 rounded-full bg-stone-200 dark:bg-stone-800 text-xs font-semibold">關閉 ✕</button>
-      <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100 mb-1">🔖 我的學術收藏與薦購書單</h2>
-      <p class="text-xs text-stone-500 mb-4">可一鍵匯出標準書目 CSV 或全部加入書包結帳，方便研究室與圖書館批次採購。</p>
+      <h2 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-100 mb-1">🔖 我的學術收藏與圖書館薦購單</h2>
+      <p class="text-xs text-stone-500 mb-4">可一鍵匯出標準書目 CSV 或全部加入書包列印正式報帳估價單。</p>
       <div id="wishlistContainer" class="space-y-3 mb-6"></div>
       <div class="flex flex-wrap justify-end gap-2">
-        <button onclick="exportWishlistCSV()" class="px-4 py-2 rounded-xl border border-brand text-brand text-xs font-semibold hover:bg-brand/10 transition">
-          ⬇️ 匯出薦購清單 (.CSV)
-        </button>
-        <button onclick="moveAllWishlistToCart()" class="px-5 py-2 rounded-xl bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
-          🎒 全部加入我的書包
-        </button>
+        <button onclick="exportWishlistCSV()" class="px-4 py-2 rounded-xl border border-brand text-brand text-xs font-semibold hover:bg-brand/10 transition">⬇️ 匯出薦購清單 (.CSV)</button>
+        <button onclick="moveAllWishlistToCart()" class="px-5 py-2 rounded-xl bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">🎒 全部加入我的書包</button>
       </div>
     </div>
   </div>
 
   <!-- 通知 Toast -->
-  <div id="toastNotification" class="fixed bottom-5 right-5 z-50 hidden bg-[#1A1412] text-amber-100 px-5 py-3 rounded-xl shadow-2xl border border-brand text-sm flex items-center gap-2.5">
+  <div id="toastNotification" class="fixed bottom-5 right-5 z-50 hidden bg-[#17120F] text-amber-100 px-5 py-3.5 rounded-2xl shadow-2xl border border-brand text-sm flex items-center gap-2.5">
+    <span class="seal-stamp text-[10px] px-1.5 py-0.5 text-amber-300 border-amber-400">書院提示</span>
     <span id="toastMessage">已加入書包</span>
   </div>
 
   <!-- =================================================================== -->
-  <!-- 核心資料庫與前端應用邏輯 (JavaScript) -->
+  <!-- 核心資料庫、互動特效與前端應用邏輯 (JavaScript) -->
   <!-- =================================================================== -->
   <script>
-    /**
-     * 1. 內建初始真實書庫 (取自文史哲出版社資料庫 Book_ALL 與 Choice 實測資料)
-     * 同時系統會在啟動時自動嘗試從 https://theliberalartspress.github.io/ 同步完整 2,632 本書目
-     */
     const BUILTIN_BOOKS = [
       {
         code: "65174",
@@ -1382,55 +1434,139 @@
       }
     ];
 
-    // 內建輪播訊息 (取自 hot 工作表)
-    const HOT_BANNERS = [
-      "🎉 慶祝～！文史哲官方網站及臉書正式上線！享有更多獨家📚書訊、新書搶先報及會員限定優惠！",
-      "✨ 新書推薦：《滿文原檔》選讀譯注 太宗朝(十一)（莊吉發 譯著）現正熱銷中！",
-      "📖 焦點書訊：《蔣介石軍事思想研究：形成、結構與失敗原因》（劉典岳 著）、《我們家 短篇小說》（紀州人 著）全新上架！",
-      "🏛️ 典藏半世紀智慧：全館逾 2,630 冊文史哲學術專書支援線上檢索、學術引用格式一鍵產生與 BOD 隨需印製！"
+    const SCHOLAR_LINEAGE = [
+      {
+        id: "zhuang",
+        name: "莊吉發 教授",
+        role: "清史檔案 ‧ 滿洲語文泰斗",
+        field: "清代宮中檔、滿文原檔譯注、秘密宗教史",
+        keyword: "莊吉發",
+        connection: "本社鎮社《清史論集》（1–30集）、《滿語叢刊》（50冊）及《滿文原檔》選讀譯注系列總纂作者，享譽國際滿學界。",
+        quote: "「治清史而不通滿文，猶如登堂而未入室；唯有直接解讀《滿文原檔》，方能還原清初歷史真貌。」"
+      },
+      {
+        id: "wang",
+        name: "王更生 教授",
+        role: "當代龍學 ‧ 先秦諸子大家",
+        keyword: "王更生",
+        field: "文心雕龍研究、晏子春秋、國學導讀",
+        connection: "《文史哲學集成》核心學者，所著《重修增訂文心雕龍研究》與《晏子春秋研究》為各大中文系所指定必讀經典。",
+        quote: "「《文心雕龍》體大而思精，乃中國文學理論批評史上巍峨之豐碑。」"
+      },
+      {
+        id: "chang",
+        name: "昌彼得 先生",
+        role: "故宮文獻 ‧ 版本目錄學巨擘",
+        keyword: "昌彼得",
+        field: "中國目錄學、版本學、中國圖書史略",
+        connection: "創辦人彭正雄先生早年請益之名師，其代表作《中國圖書史略》（書碼 #00001）即為本社《文史哲學集成》開山第一號專書。",
+        quote: "「辨章學術，考鏡源流；圖書形制之演變，實為華夏文明傳播之物質載體。」"
+      },
+      {
+        id: "huang",
+        name: "黃季剛 大師",
+        role: "章黃小學 ‧ 選學與聲韻宗師",
+        keyword: "黃季剛",
+        field: "昭明文選、聲韻訓詁、文心雕龍札記",
+        connection: "本社整理出版《文選黃氏學》等章黃學派傳世文獻，保存民國以來最精粹之小學與選學講疏。",
+        quote: "「小學明而後經學明，訓詁通而後辭章之義理自見。」"
+      },
+      {
+        id: "li",
+        name: "李威熊 教授",
+        role: "兩漢經學 ‧ 史學導讀權威",
+        keyword: "李威熊",
+        field: "董仲舒與西漢學術、漢書導讀、經學史",
+        connection: "長期於本社出版兩漢經學與史學專著，其《漢書導讀》與《董仲舒與西漢學術》透過 BOD 數位隨需印製持續嘉惠學林。",
+        quote: "「西漢經學之特質，在於融通天人，以春秋大義為現實政教立範。」"
+      },
+      {
+        id: "hu",
+        name: "胡自逢 教授",
+        role: "先秦易學 ‧ 諸子義理名家",
+        keyword: "胡自逢",
+        field: "先秦諸子易說通考、周易義理學",
+        connection: "收錄於《文史哲學集成》第 00002 號之《先秦諸子易說通考》，為探索先秦儒道墨法諸家引《易》之權威通考。",
+        quote: "「群經之首，大道之源；先秦諸子百家之立說，莫不與易理相激盪。」"
+      },
+      {
+        id: "huang_cg",
+        name: "黃春貴 教授",
+        role: "古典文論 ‧ 創作美學名家",
+        keyword: "黃春貴",
+        field: "文心雕龍之創作論、六朝美學",
+        connection: "與王更生、蔡宗陽等學者共同構築本社享譽華文界之「文心雕龍研究群」。",
+        quote: "「神與物遊，情以物遷；劉勰創作論實開東方文藝心理學之先河。」"
+      },
+      {
+        id: "founders",
+        name: "吳相湘 / 毛子水 等名師",
+        role: "創社學術導師群",
+        keyword: "文史哲學集成",
+        field: "中國現代史、國學治學方法、古籍整理",
+        connection: "創辦人彭正雄先生曾師事臺大吳相湘教授，並向毛子水、鄭騫、高明、嚴靈峰、戴君仁、夏德儀、林尹等大師請益，奠定本社半世紀學術格調。",
+        quote: "「傳承名師治學風骨，守望純粹學術出版。」"
+      }
     ];
 
-    // 狀態管理
+    const HOT_BANNERS = [
+      "🎉 慶祝～！文史哲官方網站及臉書正式上線！享有更多獨家📚書訊、新書搶先報及會員限定優惠！",
+      "✨ 鎮社新書：《滿文原檔》選讀譯注 太宗朝(十一)（莊吉發 譯著）現正熱銷中！",
+      "📖 焦點書訊：《蔣介石軍事思想研究：形成、結構與失敗原因》（劉典岳 著）、《我們家 短篇小說》（紀州人 著）全新上架！",
+      "🏛️ 獨創功能：點擊任一專書即可切換「直排宣紙卷軸品讀」模式，並一鍵複製 APA / 漢學 / BibTeX 論文引用格式！"
+    ];
+
     let allBooks = [...BUILTIN_BOOKS];
     let filteredBooks = [...BUILTIN_BOOKS];
     let currentCatalogPage = 1;
     const PAGE_SIZE = 12;
-    let catalogViewMode = 'grid'; // 'grid' | 'table'
+    let catalogViewMode = 'grid'; // 'grid' | 'shelf' | 'table'
+    let heroSpotlightIdx = 0;
+    let currentDetailReadingMode = 'horizontal'; // 'horizontal' | 'vertical'
+    let currentDetailBookCode = '65174';
+
     let cart = JSON.parse(localStorage.getItem('lap_cart') || '[]');
     let wishlist = JSON.parse(localStorage.getItem('lap_wishlist') || '[]');
+    let compareList = JSON.parse(localStorage.getItem('lap_compare') || '["65174","00001","00004"]');
     let localOrders = JSON.parse(localStorage.getItem('lap_orders') || JSON.stringify([
       { id: "ORD-0059", name: "李先生/小姐", phone: "0978***023", items: "李攀龍研究 (數量: 1)", total: 520, status: "已完成", date: "2026/06/28", payment: "店取付現金" },
       { id: "ORD-0060", name: "徐先生/小姐", phone: "0918***556", items: "周易本義 (數量: 3)", total: 1800, status: "已派送", date: "2026/07/04", payment: "線上刷卡" }
     ]));
 
-    /**
-     * 2. 自動生成「直排古籍線裝書封」HTML (解決無圖片或圖片失效時的美觀問題)
-     */
     function renderTraditionalCoverFallback(book, heightClass = "h-56") {
       const cleanTitle = (book.title || "文史哲專書").replace(/（BOD）|\(BOD\)/gi, '').slice(0, 14);
       const cleanAuthor = (book.author || "本社編印").slice(0, 8);
+      // 根據書碼自動分配五種傳統藏書綾錦色澤（宋錦靛藍、藏經栗褐、翰林松綠、御製玄黑、宣和赭紅）
+      const palettes = [
+        "from-[#1E3246] to-[#12202E]",
+        "from-[#4A2C1D] to-[#2B180F]",
+        "from-[#1F3A32] to-[#12241E]",
+        "from-[#2C2826] to-[#171514]",
+        "from-[#5A2322] to-[#361313]"
+      ];
+      const hash = String(book.code).split('').reduce((acc, c) => acc + c.charCodeAt(0), 0);
+      const bgGrad = palettes[hash % palettes.length];
+
       return `
-        <div class="${heightClass} w-full thread-bound-cover rounded-lg p-3 flex flex-row-reverse justify-between items-stretch text-amber-50 shadow-inner select-none">
-          <!-- 右側直排題名籤 -->
-          <div class="bg-[#F9F6F0] text-stone-900 px-2 py-2.5 rounded-sm border border-amber-900/40 shadow flex flex-col items-center justify-between max-h-full">
+        <div class="${heightClass} w-full bg-gradient-to-br ${bgGrad} thread-bound-cover rounded-lg p-3.5 flex flex-row-reverse justify-between items-stretch text-amber-50 select-none">
+          <div class="thread-stitch-nodes"></div>
+          <!-- 右側直排宣紙書名題籤 -->
+          <div class="bg-[#FAF5E8] text-stone-900 px-2 py-2.5 rounded-sm border border-amber-900/40 shadow-md flex flex-col items-center justify-between max-h-full mr-2">
             <div class="writing-vertical font-serif-tc font-black text-xs sm:text-sm tracking-widest leading-tight overflow-hidden">
               ${cleanTitle}
             </div>
-            <span class="seal-stamp text-[9px] px-1 mt-1 leading-none">文史哲</span>
+            <span class="seal-stamp text-[8px] px-1 mt-1 leading-none">文史哲</span>
           </div>
           <!-- 左側作者與叢書印記 -->
-          <div class="flex flex-col justify-between items-start text-[10px] text-amber-200/80 font-serif-tc">
-            <span class="px-1.5 py-0.5 rounded bg-black/30 border border-amber-300/20">${book.category || '文史哲學集成'}</span>
-            <div class="writing-vertical tracking-widest text-xs text-amber-100/90">${cleanAuthor}</div>
-            <span class="font-mono text-[9px] opacity-60">#${book.code}</span>
+          <div class="flex flex-col justify-between items-start text-[10px] text-amber-200/85 font-serif-tc">
+            <span class="px-1.5 py-0.5 rounded bg-black/35 border border-amber-300/20 max-w-[110px] truncate">${book.category || '文史哲學集成'}</span>
+            <div class="writing-vertical tracking-widest text-xs text-amber-100/95 py-1">${cleanAuthor}</div>
+            <span class="font-mono text-[9px] opacity-65">#${book.code}</span>
           </div>
         </div>
       `;
     }
 
-    /**
-     * 3. 嘗試自動從現有 GitHub Pages 端點同步完整 2,632 本書目
-     */
     async function trySyncRemoteCatalog() {
       const endpoints = [
         'books.json',
@@ -1449,7 +1585,6 @@
           const rawList = Array.isArray(data) ? data : (data.books || data.data || []);
           if (rawList.length > 0) {
             const normalized = rawList.map(item => normalizeBookRecord(item));
-            // 合併內建完整評析資料與遠端全量書庫
             const map = new Map();
             BUILTIN_BOOKS.forEach(b => map.set(String(b.code), b));
             normalized.forEach(b => {
@@ -1458,15 +1593,16 @@
             });
             allBooks = Array.from(map.values());
             document.getElementById('statTotalBooks').textContent = allBooks.length.toLocaleString();
-            document.getElementById('syncStatusText').textContent = `已同步雲端完整書庫 (${allBooks.length.toLocaleString()} 冊)`;
+            document.getElementById('syncStatusText').textContent = `已連線同步全館書庫 (${allBooks.length.toLocaleString()} 冊)`;
             populateCategoryDropdown();
             applyCatalogFilters();
             return;
           }
         } catch (err) {
-          // 靜默繼續嘗試下一個端點
+          // 繼續嘗試下一個端點
         }
       }
+      document.getElementById('syncStatusText').textContent = `精選典藏書庫已就緒 (支援 CSV 全量掛載)`;
     }
 
     function normalizeBookRecord(raw) {
@@ -1490,9 +1626,644 @@
       };
     }
 
-    /**
-     * 4. 支援手動載入試算表匯出之 CSV 或 JSON
-     */
+    function renderScholarLineage(selectedId = 'zhuang') {
+      const grid = document.getElementById('scholarNodesGrid');
+      const panel = document.getElementById('scholarDetailPanel');
+      const current = SCHOLAR_LINEAGE.find(s => s.id === selectedId) || SCHOLAR_LINEAGE[0];
+
+      grid.innerHTML = SCHOLAR_LINEAGE.map(s => {
+        const active = s.id === current.id;
+        return `
+          <button
+            onclick="renderScholarLineage('${s.id}')"
+            class="p-3.5 rounded-2xl text-left transition flex flex-col justify-between border ${
+              active
+                ? 'bg-brand text-white border-brand shadow-lg scale-[1.02]'
+                : 'bg-white dark:bg-stone-800 text-stone-800 dark:text-stone-200 border-brand/15 hover:border-brand'
+            }"
+          >
+            <div class="text-[10px] ${active ? 'text-amber-200' : 'text-brand dark:text-amber-400'} font-bold truncate">${s.role}</div>
+            <div class="font-serif-tc font-black text-base mt-1">${s.name}</div>
+            <div class="text-[11px] ${active ? 'text-amber-100/90' : 'text-stone-500 dark:text-stone-400'} mt-2 line-clamp-1">${s.field}</div>
+          </button>
+        `;
+      }).join('');
+
+      panel.innerHTML = `
+        <div class="space-y-3">
+          <div class="flex items-center justify-between">
+            <span class="px-2.5 py-1 rounded-full bg-brand/10 text-brand dark:text-amber-300 text-xs font-bold">${current.role}</span>
+            <span class="seal-stamp text-[10px] px-2 py-0.5">學林淵源</span>
+          </div>
+          <h3 class="font-serif-tc text-2xl font-black text-stone-900 dark:text-amber-50">${current.name}</h3>
+          <p class="text-xs text-stone-500 dark:text-stone-400"><strong>專精領域：</strong>${current.field}</p>
+          <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed">${current.connection}</p>
+          <blockquote class="p-3.5 rounded-xl bg-[#F7F3E8] dark:bg-stone-900 border-l-4 border-brand font-serif-tc text-xs sm:text-sm italic text-stone-700 dark:text-amber-100">
+            ${current.quote}
+          </blockquote>
+        </div>
+        <div class="pt-4 mt-4 border-t border-stone-200 dark:border-stone-700 flex items-center justify-between">
+          <span class="text-xs text-stone-400">點擊右側按鈕直接檢索相關專著</span>
+          <button onclick="quickFilterTag('${current.keyword}');scrollToSearch()" class="px-4 py-2 rounded-xl bg-brand hover:bg-brand-dark text-white text-xs font-semibold shadow transition">
+            調閱「${current.keyword}」相關著作 →
+          </button>
+        </div>
+      `;
+    }
+
+    function renderHeroSpotlight() {
+      const book = allBooks[heroSpotlightIdx % allBooks.length] || BUILTIN_BOOKS[0];
+      const container = document.getElementById('heroSpotlightCard');
+      container.innerHTML = `
+        <div class="flex flex-col sm:flex-row gap-5 items-center sm:items-start group">
+          <div class="w-32 sm:w-36 shrink-0 cursor-pointer book-3d-stage" onclick="openBookDetail('${book.code}')">
+            <div class="book-3d-wrap rounded-lg">
+              <img
+                src="${book.cover}"
+                alt="${book.title}"
+                onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                class="w-full h-44 sm:h-48 object-cover rounded-lg"
+              />
+              <div style="display:none;">
+                ${renderTraditionalCoverFallback(book, 'h-44 sm:h-48')}
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 min-w-0 text-center sm:text-left">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-1.5 mb-1.5">
+              <span class="px-2 py-0.5 rounded bg-brand/10 text-brand dark:text-amber-300 text-[11px] font-semibold">${book.category}</span>
+              <span class="text-xs font-mono text-stone-400">#${book.code}</span>
+            </div>
+            <h4 onclick="openBookDetail('${book.code}')" class="font-serif-tc text-base sm:text-lg font-black text-stone-900 dark:text-amber-50 hover:text-brand cursor-pointer line-clamp-2">
+              ${book.title}
+            </h4>
+            <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">${book.author} ｜ ${book.year}</p>
+            <p class="text-xs text-stone-600 dark:text-stone-300 mt-2 line-clamp-3 leading-relaxed">
+              ${book.intro}
+            </p>
+            <div class="mt-4 flex flex-wrap items-center justify-center sm:justify-between gap-2">
+              <span class="font-serif-tc text-xl font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
+              <div class="flex gap-1.5">
+                <button onclick="openBookDetail('${book.code}')" class="px-3 py-1.5 rounded-lg border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand/10 transition">
+                  📜 卷軸品讀
+                </button>
+                <button onclick="addToCart('${book.code}')" class="px-3 py-1.5 rounded-lg bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
+                  + 書包
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function prevHeroSpotlight() {
+      heroSpotlightIdx = (heroSpotlightIdx - 1 + allBooks.length) % allBooks.length;
+      renderHeroSpotlight();
+    }
+    function nextHeroSpotlight() {
+      heroSpotlightIdx = (heroSpotlightIdx + 1) % allBooks.length;
+      renderHeroSpotlight();
+    }
+
+    function renderBookCardHTML(book) {
+      const isBOD = book.title.toUpperCase().includes('BOD');
+      const inWish = wishlist.includes(book.code);
+      const inCompare = compareList.includes(book.code);
+      return `
+        <div class="bg-white dark:bg-stone-800 rounded-2xl p-4 shadow-sm hover:shadow-xl border border-brand/15 transition flex flex-col justify-between group">
+          <div>
+            <!-- 3D 立體書封展示區 -->
+            <div class="relative mb-4 cursor-pointer book-3d-stage" onclick="openBookDetail('${book.code}')">
+              <div class="book-3d-wrap rounded-lg">
+                <img
+                  src="${book.cover}"
+                  alt="${book.title}"
+                  loading="lazy"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                  class="w-full h-56 object-cover rounded-lg"
+                />
+                <div style="display:none;">
+                  ${renderTraditionalCoverFallback(book, 'h-56')}
+                </div>
+              </div>
+
+              <!-- 左上狀態徽章 -->
+              <div class="absolute top-2 left-2 flex flex-col gap-1 z-10">
+                ${book.isNew ? '<span class="px-2 py-0.5 rounded bg-brand-cinnabar text-white text-[10px] font-bold shadow">新書上市</span>' : ''}
+                ${isBOD ? '<span class="px-2 py-0.5 rounded bg-brand-indigo text-white text-[10px] font-bold shadow">BOD 隨需印製</span>' : ''}
+                ${book.review ? '<span class="px-2 py-0.5 rounded bg-amber-900/80 text-amber-100 text-[10px] font-semibold shadow">附學術導讀</span>' : ''}
+              </div>
+
+              <!-- 右上收藏與比對按鈕 -->
+              <div class="absolute top-2 right-2 flex flex-col gap-1.5 z-10">
+                <button
+                  onclick="event.stopPropagation(); toggleWishlist('${book.code}')"
+                  class="w-8 h-8 rounded-full bg-black/55 text-white flex items-center justify-center text-xs hover:bg-brand-cinnabar transition"
+                  title="加入學術收藏單"
+                >
+                  ${inWish ? '❤️' : '🤍'}
+                </button>
+                <button
+                  onclick="event.stopPropagation(); toggleCompare('${book.code}')"
+                  class="w-8 h-8 rounded-full ${inCompare ? 'bg-brand text-white' : 'bg-black/55 text-white'} flex items-center justify-center text-xs hover:bg-brand transition"
+                  title="放入研究比對案頭"
+                >
+                  ⚖️
+                </button>
+              </div>
+            </div>
+
+            <div class="flex items-center justify-between text-[11px] text-stone-500 dark:text-stone-400 mb-1">
+              <span class="px-2 py-0.5 rounded bg-[#F7F3E8] dark:bg-stone-900 text-brand dark:text-amber-300 font-semibold truncate max-w-[72%]">
+                ${book.category}
+              </span>
+              <span class="font-mono">#${book.code}</span>
+            </div>
+
+            <h3 onclick="openBookDetail('${book.code}')" class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-50 group-hover:text-brand cursor-pointer line-clamp-2 min-h-[3rem]">
+              ${book.title}
+            </h3>
+            <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">
+              ${book.author} <span class="opacity-65">｜ ${book.year}</span>
+            </p>
+            <p class="text-xs text-stone-600 dark:text-stone-300 mt-2 line-clamp-2 leading-relaxed">
+              ${book.intro || '點擊開啟直排宣紙卷軸品讀、ISBN 與四合一論文引用格式。'}
+            </p>
+          </div>
+
+          <div class="pt-3 mt-3 border-t border-stone-200/70 dark:border-stone-700 flex items-center justify-between">
+            <div>
+              <span class="text-[10px] text-stone-400 block">定價</span>
+              <span class="font-serif-tc text-lg font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
+            </div>
+            <div class="flex items-center gap-1.5">
+              <button onclick="openBookDetail('${book.code}')" class="px-2.5 py-1.5 rounded-lg border border-stone-300 dark:border-stone-600 hover:border-brand text-xs font-semibold transition">
+                📜 品讀/引用
+              </button>
+              ${book.stock > 0
+                ? `<button onclick="addToCart('${book.code}')" class="px-3 py-1.5 rounded-lg bg-brand hover:bg-brand-dark text-white text-xs font-semibold shadow-sm transition">+ 書包</button>`
+                : `<span class="px-2.5 py-1.5 rounded-lg bg-stone-200 text-stone-500 text-xs">已售罄</span>`
+              }
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function switchFeaturedTab(tab) {
+      const btnChoice = document.getElementById('tabBtnChoice');
+      const btnClassics = document.getElementById('tabBtnClassics');
+      let list = [];
+      if (tab === 'choice') {
+        btnChoice.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand text-white shadow transition";
+        btnClassics.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-brand/20 transition";
+        list = allBooks.filter(b => b.isNew).concat(allBooks).slice(0, 4);
+      } else {
+        btnClassics.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand text-white shadow transition";
+        btnChoice.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-brand/20 transition";
+        list = allBooks.filter(b => !b.isNew && b.category.includes('文史哲學集成')).slice(0, 4);
+      }
+      document.getElementById('featuredBooksGrid').innerHTML = list.map(renderBookCardHTML).join('');
+    }
+
+    function populateCategoryDropdown() {
+      const categories = Array.from(new Set(allBooks.map(b => b.category).filter(Boolean)));
+      const select = document.getElementById('filterCategory');
+      select.innerHTML = '<option value="">全部叢書類別</option>' +
+        categories.map(c => `<option value="${c}">${c}</option>`).join('');
+    }
+
+    function applyCatalogFilters() {
+      const codeQ = document.getElementById('filterCode').value.trim().toLowerCase();
+      const titleQ = document.getElementById('filterTitle').value.trim().toLowerCase();
+      const authorQ = document.getElementById('filterAuthor').value.trim().toLowerCase();
+      const yearQ = document.getElementById('filterYear').value.trim().toLowerCase();
+      const catQ = document.getElementById('filterCategory').value;
+      const inStockOnly = document.getElementById('filterInStockOnly').checked;
+      const newOnly = document.getElementById('filterNewOnly').checked;
+      const bodOnly = document.getElementById('filterBODOnly').checked;
+      const hasReviewOnly = document.getElementById('filterHasReviewOnly').checked;
+      const sortMode = document.getElementById('sortSelect').value;
+
+      filteredBooks = allBooks.filter(book => {
+        if (codeQ && !book.code.toLowerCase().includes(codeQ)) return false;
+        if (titleQ && !book.title.toLowerCase().includes(titleQ) && !(book.intro || '').toLowerCase().includes(titleQ) && !book.author.toLowerCase().includes(titleQ) && !book.category.toLowerCase().includes(titleQ) && !book.isbn.toLowerCase().includes(titleQ)) return false;
+        if (authorQ && !book.author.toLowerCase().includes(authorQ)) return false;
+        if (yearQ && !book.year.toLowerCase().includes(yearQ)) return false;
+        if (catQ && book.category !== catQ) return false;
+        if (inStockOnly && book.stock <= 0) return false;
+        if (newOnly && !book.isNew) return false;
+        if (bodOnly && !book.title.toUpperCase().includes('BOD')) return false;
+        if (hasReviewOnly && !book.review) return false;
+        return true;
+      });
+
+      if (sortMode === 'code_asc') {
+        filteredBooks.sort((a, b) => a.code.localeCompare(b.code));
+      } else if (sortMode === 'price_asc') {
+        filteredBooks.sort((a, b) => a.price - b.price);
+      } else if (sortMode === 'price_desc') {
+        filteredBooks.sort((a, b) => b.price - a.price);
+      } else {
+        filteredBooks.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
+      }
+
+      currentCatalogPage = 1;
+      renderCatalog();
+    }
+
+    function renderCatalog() {
+      const visibleBooks = filteredBooks.slice(0, currentCatalogPage * PAGE_SIZE);
+      document.getElementById('filterResultCount').textContent = `共檢索出 ${filteredBooks.length.toLocaleString()} 本專書`;
+
+      const gridEl = document.getElementById('catalogGridView');
+      const shelfEl = document.getElementById('catalogShelfView');
+      const tableBody = document.getElementById('catalogTableBody');
+
+      if (filteredBooks.length === 0) {
+        const emptyMsg = `<div class="col-span-full py-12 text-center text-stone-500">此篩選條件目前沒有相符書籍，請嘗試放寬關鍵字。</div>`;
+        gridEl.innerHTML = emptyMsg;
+        shelfEl.innerHTML = emptyMsg;
+        tableBody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-stone-500">查無相符書籍</td></tr>`;
+      } else {
+        // 1. 3D 卡片視圖
+        gridEl.innerHTML = visibleBooks.map(renderBookCardHTML).join('');
+
+        // 2. 藏書閣木質書架視圖 (每排 6 本立體書背/書封陳列於胡桃木層架上)
+        const rows = [];
+        for (let i = 0; i < visibleBooks.length; i += 6) {
+          const chunk = visibleBooks.slice(i, i + 6);
+          rows.push(`
+            <div class="pt-4 px-4 sm:px-8 bg-gradient-to-b from-transparent to-stone-200/40 dark:to-stone-800/40 rounded-t-2xl">
+              <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-5 items-end">
+                ${chunk.map(b => `
+                  <div onclick="openBookDetail('${b.code}')" class="cursor-pointer group flex flex-col items-center">
+                    <div class="w-full max-w-[135px] book-3d-stage">
+                      <div class="book-3d-wrap">
+                        ${renderTraditionalCoverFallback(b, 'h-44')}
+                      </div>
+                    </div>
+                    <div class="mt-2 text-center w-full">
+                      <div class="font-serif-tc font-bold text-xs text-stone-800 dark:text-amber-100 truncate group-hover:text-brand">${b.title}</div>
+                      <div class="text-[10px] text-brand font-semibold">NT$ ${b.price}</div>
+                    </div>
+                  </div>
+                `).join('')}
+              </div>
+              <!-- 實木書架層板 -->
+              <div class="h-4 mt-2 -mx-4 sm:-mx-8 rounded-md bg-gradient-to-r from-[#4A2C1D] via-[#6E4427] to-[#4A2C1D] shadow-lg border-t border-amber-200/20"></div>
+            </div>
+          `);
+        }
+        shelfEl.innerHTML = rows.join('');
+
+        // 3. 學術目錄表格視圖
+        tableBody.innerHTML = visibleBooks.map(book => `
+          <tr class="hover:bg-brand/5 transition">
+            <td class="py-3 px-4 font-mono text-xs text-stone-500">#${book.code}</td>
+            <td class="py-3 px-4 font-serif-tc font-bold text-stone-900 dark:text-amber-100 cursor-pointer hover:text-brand" onclick="openBookDetail('${book.code}')">
+              ${book.title}
+              ${book.isNew ? '<span class="ml-1 px-1.5 py-0.5 rounded bg-brand-cinnabar text-white text-[10px] font-sans">新書</span>' : ''}
+            </td>
+            <td class="py-3 px-4 text-stone-600 dark:text-stone-300 whitespace-nowrap">${book.author}</td>
+            <td class="py-3 px-4 text-stone-500 text-xs whitespace-nowrap">${book.year}</td>
+            <td class="py-3 px-4 text-xs"><span class="px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-700">${book.category}</span></td>
+            <td class="py-3 px-4 font-serif-tc font-bold text-brand dark:text-amber-400 text-right whitespace-nowrap">NT$ ${book.price}</td>
+            <td class="py-3 px-4 text-center whitespace-nowrap space-x-1">
+              <button onclick="openBookDetail('${book.code}')" class="px-2.5 py-1 rounded border border-stone-300 dark:border-stone-600 text-xs hover:border-brand">📜 品讀</button>
+              <button onclick="toggleCompare('${book.code}')" class="px-2 py-1 rounded border border-stone-300 dark:border-stone-600 text-xs hover:border-brand" title="加入比對">⚖️</button>
+              <button onclick="addToCart('${book.code}')" class="px-2.5 py-1 rounded bg-brand text-white text-xs hover:bg-brand-dark">+ 書包</button>
+            </td>
+          </tr>
+        `).join('');
+      }
+
+      const loadMoreBtn = document.getElementById('loadMoreBooksBtn');
+      const infoEl = document.getElementById('catalogPaginationInfo');
+      if (visibleBooks.length >= filteredBooks.length) {
+        loadMoreBtn.classList.add('hidden');
+      } else {
+        loadMoreBtn.classList.remove('hidden');
+      }
+      infoEl.textContent = `目前顯示 ${visibleBooks.length} / ${filteredBooks.length} 本專書`;
+    }
+
+    function setCatalogView(mode) {
+      catalogViewMode = mode;
+      const gridEl = document.getElementById('catalogGridView');
+      const shelfEl = document.getElementById('catalogShelfView');
+      const tableEl = document.getElementById('catalogTableView');
+      const btnGrid = document.getElementById('viewBtnGrid');
+      const btnShelf = document.getElementById('viewBtnShelf');
+      const btnTable = document.getElementById('viewBtnTable');
+
+      gridEl.classList.toggle('hidden', mode !== 'grid');
+      shelfEl.classList.toggle('hidden', mode !== 'shelf');
+      tableEl.classList.toggle('hidden', mode !== 'table');
+
+      const activeClass = "px-3 py-1 rounded-lg text-xs font-semibold bg-brand text-white transition";
+      const idleClass = "px-3 py-1 rounded-lg text-xs font-semibold text-stone-600 dark:text-stone-300 transition";
+      btnGrid.className = mode === 'grid' ? activeClass : idleClass;
+      btnShelf.className = mode === 'shelf' ? activeClass : idleClass;
+      btnTable.className = mode === 'table' ? activeClass : idleClass;
+    }
+
+    function loadMoreCatalogBooks() {
+      currentCatalogPage++;
+      renderCatalog();
+    }
+
+    function resetAllFilters() {
+      document.getElementById('filterCode').value = '';
+      document.getElementById('filterTitle').value = '';
+      document.getElementById('filterAuthor').value = '';
+      document.getElementById('filterYear').value = '';
+      document.getElementById('filterCategory').value = '';
+      document.getElementById('filterInStockOnly').checked = false;
+      document.getElementById('filterNewOnly').checked = false;
+      document.getElementById('filterBODOnly').checked = false;
+      document.getElementById('filterHasReviewOnly').checked = false;
+      document.getElementById('sortSelect').value = 'default';
+      applyCatalogFilters();
+    }
+
+    function executeHeroSearch() {
+      const q = document.getElementById('heroQuickSearch').value.trim();
+      resetAllFilters();
+      document.getElementById('filterTitle').value = q;
+      applyCatalogFilters();
+      scrollToSearch();
+    }
+
+    function quickFilterTag(keyword) {
+      resetAllFilters();
+      document.getElementById('filterTitle').value = keyword;
+      applyCatalogFilters();
+    }
+
+    function scrollToSearch() {
+      document.getElementById('catalogSection').scrollIntoView({ behavior: 'smooth' });
+    }
+    function scrollToFeatured() {
+      document.getElementById('featuredShowcaseAnchor').scrollIntoView({ behavior: 'smooth' });
+    }
+
+    function openBookDetail(code) {
+      currentDetailBookCode = String(code);
+      renderBookDetailModalContent();
+      openModal('bookDetailModal');
+    }
+
+    function switchDetailReadingMode(mode) {
+      currentDetailReadingMode = mode;
+      renderBookDetailModalContent();
+    }
+
+    function renderBookDetailModalContent() {
+      const book = allBooks.find(b => String(b.code) === String(currentDetailBookCode)) || BUILTIN_BOOKS[0];
+      const cleanAuthor = book.author.replace(/著|譯著|編著|撰/g, '').trim();
+      const rocMatch = book.year.match(/(\d+)\s*年/);
+      const adYear = rocMatch ? (parseInt(rocMatch[1], 10) + 1911) : 2026;
+
+      const citeTaiwan = `${cleanAuthor}，《${book.title}》，臺北：文史哲出版社，${adYear}年。`;
+      const citeAPA = `${cleanAuthor}（${adYear}）。《${book.title}》。文史哲出版社。`;
+      const citeChicago = `${cleanAuthor}. ${adYear}. 《${book.title}》. Taipei: The Liberal Arts Press (文史哲出版社).`;
+      const citeBibTeX = `@book{lap_${book.code}, title={${book.title}}, author={${cleanAuthor}}, year={${adYear}}, publisher={文史哲出版社}, address={臺北}, isbn={${book.isbn || 'N/A'}}}`;
+
+      const isVertical = currentDetailReadingMode === 'vertical';
+
+      const content = document.getElementById('bookDetailContent');
+      content.innerHTML = `
+        <div class="grid md:grid-cols-12 gap-8 items-start">
+          <!-- 左欄：3D 書封與出版規格 -->
+          <div class="md:col-span-4">
+            <div class="book-3d-stage max-w-[230px] mx-auto">
+              <div class="book-3d-wrap">
+                <img
+                  src="${book.cover}"
+                  alt="${book.title}"
+                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
+                  class="w-full rounded-xl shadow-lg"
+                />
+                <div style="display:none;">
+                  ${renderTraditionalCoverFallback(book, 'h-72')}
+                </div>
+              </div>
+            </div>
+
+            <div class="mt-5 bg-white dark:bg-stone-800 p-4 rounded-2xl border border-brand/20 text-xs space-y-2 relative overflow-hidden">
+              <div class="flex justify-between"><span class="text-stone-400">書碼編號：</span><span class="font-mono font-bold">#${book.code}</span></div>
+              <div class="flex justify-between"><span class="text-stone-400">ISBN：</span><span class="font-mono">${book.isbn || '請洽本社查詢'}</span></div>
+              <div class="flex justify-between"><span class="text-stone-400">出版年份：</span><span>${book.year}（西元 ${adYear} 年）</span></div>
+              <div class="flex justify-between"><span class="text-stone-400">叢書類別：</span><span>${book.category}</span></div>
+              <div class="flex justify-between"><span class="text-stone-400">庫存狀態：</span><span class="text-emerald-600 font-semibold">${book.stock > 0 ? `現貨供應 (${book.stock} 冊)` : '可洽詢 BOD 印製'}</span></div>
+              <!-- 動態蓋印特效區 -->
+              <div id="stampEffectBox" class="pt-2 flex justify-end">
+                <span class="seal-stamp text-xs px-2 py-0.5 animate-stamp">文史哲藏書印</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- 右欄：標題、直排/橫排品讀切換、學術評析與論文引用 -->
+          <div class="md:col-span-8 space-y-5">
+            <div>
+              <div class="flex flex-wrap items-center gap-2">
+                <span class="px-2.5 py-1 rounded-full bg-brand/10 text-brand dark:text-amber-300 text-xs font-bold">${book.category}</span>
+                <button onclick="toggleCompare('${book.code}')" class="px-2.5 py-1 rounded-full border border-brand/30 text-xs hover:bg-brand hover:text-white transition">
+                  ⚖️ 加入研究比對案頭
+                </button>
+              </div>
+              <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-2">${book.title}</h2>
+              <p class="text-sm text-stone-500 mt-1">作者：<strong>${book.author}</strong> ｜ 出版：文史哲出版社有限公司</p>
+            </div>
+
+            <!-- 價格與購書行動列 -->
+            <div class="flex flex-wrap items-center justify-between gap-3 bg-white dark:bg-stone-800 p-4 rounded-2xl border border-brand/20">
+              <div>
+                <span class="text-xs text-stone-400 block">學術專書定價</span>
+                <span class="font-serif-tc text-3xl font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
+              </div>
+              <div class="flex flex-wrap gap-2">
+                <button onclick="toggleWishlist('${book.code}')" class="px-4 py-2.5 rounded-xl border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand/10 transition">
+                  🔖 收藏/薦購
+                </button>
+                <button onclick="addToCart('${book.code}')" class="px-6 py-2.5 rounded-xl bg-brand hover:bg-brand-dark text-white text-sm font-semibold shadow-md transition">
+                  🎒 加入我的書包
+                </button>
+              </div>
+            </div>
+
+            <!-- 獨創功能：橫排現代導讀 ⇄ 直排朱絲欄宣紙卷軸品讀 -->
+            <div>
+              <div class="flex items-center justify-between mb-2">
+                <h3 class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100">
+                  📖 書籍簡介與編輯室學術評析
+                </h3>
+                <div class="inline-flex rounded-xl border border-brand/30 p-0.5 bg-white dark:bg-stone-800 text-xs">
+                  <button onclick="switchDetailReadingMode('horizontal')" class="px-3 py-1 rounded-lg font-semibold ${!isVertical ? 'bg-brand text-white' : 'text-stone-600 dark:text-stone-300'} transition">
+                    現代橫排
+                  </button>
+                  <button onclick="switchDetailReadingMode('vertical')" class="px-3 py-1 rounded-lg font-semibold ${isVertical ? 'bg-brand-cinnabar text-white' : 'text-stone-600 dark:text-stone-300'} transition">
+                    📜 直排宣紙卷軸
+                  </button>
+                </div>
+              </div>
+
+              ${!isVertical ? `
+                <div class="space-y-4">
+                  <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed bg-white/80 dark:bg-stone-800/70 p-4 rounded-2xl border border-stone-200 dark:border-stone-700">
+                    ${book.intro || '本書收錄於文史哲出版社專業學術書庫，考據詳實、論證嚴謹，歡迎學界先進選購典藏。'}
+                  </p>
+                  ${book.review ? `
+                    <blockquote class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed bg-[#EFE9D8] dark:bg-stone-800 p-4 rounded-2xl border-l-4 border-brand italic">
+                      <strong class="not-italic text-brand dark:text-amber-400 block mb-1 font-serif-tc">🖋️ 編輯室讀後心得與學術評析：</strong>
+                      「${book.review}」
+                    </blockquote>
+                  ` : ''}
+                </div>
+              ` : `
+                <!-- 直排朱絲欄古籍宣紙卷軸視圖 -->
+                <div class="zhusilan-paper p-5 rounded-xl overflow-x-auto">
+                  <div class="writing-vertical h-64 sm:h-72 text-sm sm:text-base font-serif-tc leading-loose tracking-wider text-stone-900 dark:text-amber-100 space-y-4 ml-auto">
+                    <div class="font-black text-brand-cinnabar dark:text-amber-400">【${book.title} ‧ 提要】</div>
+                    <div>${book.intro || '本書收錄於文史哲出版社專業學術書庫，考據詳實、論證嚴謹。'}</div>
+                    ${book.review ? `<div class="text-brand dark:text-amber-300">【學林評騭】${book.review}</div>` : ''}
+                  </div>
+                </div>
+              `}
+            </div>
+
+            <!-- 四合一標準學術引用產生器 -->
+            <div class="bg-white dark:bg-stone-800 p-4 rounded-2xl border border-brand/20 space-y-2.5">
+              <div class="flex items-center justify-between">
+                <h4 class="font-serif-tc font-bold text-sm text-stone-900 dark:text-amber-100">🎓 學術論文引用格式（點擊任一列即可複製）</h4>
+                <span class="text-[11px] text-stone-400">支援期刊與博碩士論文</span>
+              </div>
+              <div class="space-y-1.5 text-xs">
+                <div onclick="copyTextSafe('${citeTaiwan.replace(/'/g, "\\'")}')" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2 transition">
+                  <div><strong class="text-brand">臺灣漢學格式：</strong>${citeTaiwan}</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-brand/10 text-brand shrink-0 font-semibold">複製</span>
+                </div>
+                <div onclick="copyTextSafe('${citeAPA.replace(/'/g, "\\'")}')" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2 transition">
+                  <div><strong class="text-brand">APA 第七版：</strong>${citeAPA}</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-brand/10 text-brand shrink-0 font-semibold">複製</span>
+                </div>
+                <div onclick="copyTextSafe('${citeChicago.replace(/'/g, "\\'")}')" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2 transition">
+                  <div><strong class="text-brand">Chicago：</strong>${citeChicago}</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-brand/10 text-brand shrink-0 font-semibold">複製</span>
+                </div>
+                <div onclick="copyTextSafe('${citeBibTeX.replace(/'/g, "\\'")}')" class="p-2.5 rounded-xl bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2 transition">
+                  <div class="font-mono text-[11px] truncate"><strong class="font-sans text-brand">BibTeX：</strong>${citeBibTeX}</div>
+                  <span class="text-[10px] px-2 py-0.5 rounded bg-brand/10 text-brand shrink-0 font-semibold">複製</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      `;
+    }
+
+    function toggleCompare(code) {
+      const strCode = String(code);
+      const idx = compareList.indexOf(strCode);
+      if (idx > -1) {
+        compareList.splice(idx, 1);
+        showToast('已從研究比對案頭移除');
+      } else {
+        if (compareList.length >= 3) {
+          compareList.shift();
+        }
+        compareList.push(strCode);
+        showToast('已放入「研究比對案頭」！');
+      }
+      localStorage.setItem('lap_compare', JSON.stringify(compareList));
+      updateCompareBadge();
+      renderCatalog();
+      renderCompareDesk();
+    }
+
+    function updateCompareBadge() {
+      const el = document.getElementById('compareCountBadge');
+      if (el) el.textContent = compareList.length;
+    }
+
+    function clearCompareList() {
+      compareList = [];
+      localStorage.setItem('lap_compare', JSON.stringify(compareList));
+      updateCompareBadge();
+      renderCompareDesk();
+      renderCatalog();
+    }
+
+    function renderCompareDesk() {
+      const container = document.getElementById('compareDeskContainer');
+      if (!container) return;
+      const books = compareList.map(c => allBooks.find(b => String(b.code) === String(c))).filter(Boolean);
+      if (books.length === 0) {
+        container.innerHTML = `<div class="py-12 text-center text-stone-500 text-sm">目前研究案頭尚無書籍。您可點擊任一書籍卡片右上角的「⚖️」圖示加入比對。</div>`;
+        return;
+      }
+      container.innerHTML = `
+        <div class="grid grid-cols-1 md:grid-cols-${books.length} gap-5">
+          ${books.map(b => `
+            <div class="bg-white dark:bg-stone-800 p-5 rounded-2xl border border-brand/20 flex flex-col justify-between space-y-4">
+              <div>
+                <div class="flex items-center justify-between text-xs text-stone-400 mb-2">
+                  <span class="font-mono">#${b.code}</span>
+                  <button onclick="toggleCompare('${b.code}')" class="text-rose-500 hover:underline">移除 ✕</button>
+                </div>
+                <h3 class="font-serif-tc font-black text-lg text-stone-900 dark:text-amber-100">${b.title}</h3>
+                <p class="text-xs text-brand font-semibold mt-1">${b.author} ｜ ${b.year}</p>
+                <div class="mt-3 pt-3 border-t border-stone-200 dark:border-stone-700 text-xs space-y-1.5">
+                  <div><strong>叢書類別：</strong>${b.category}</div>
+                  <div><strong>ISBN：</strong>${b.isbn || 'N/A'}</div>
+                  <div><strong>定價：</strong>NT$ ${b.price}</div>
+                  <div><strong>內容提要：</strong><p class="text-stone-600 dark:text-stone-300 mt-1 leading-relaxed">${b.intro || '暫無提要'}</p></div>
+                  ${b.review ? `<div class="p-2.5 rounded-xl bg-[#F7F3E8] dark:bg-stone-900 mt-2"><strong>學術評析：</strong>${b.review}</div>` : ''}
+                </div>
+              </div>
+              <button onclick="addToCart('${b.code}')" class="w-full py-2 rounded-xl bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
+                + 加入我的書包
+              </button>
+            </div>
+          `).join('')}
+        </div>
+      `;
+    }
+
+    function copyAllComparedCitations() {
+      const books = compareList.map(c => allBooks.find(b => String(b.code) === String(c))).filter(Boolean);
+      if (books.length === 0) {
+        showToast('案頭尚無書籍可供複製');
+        return;
+      }
+      const lines = books.map(book => {
+        const cleanAuthor = book.author.replace(/著|譯著|編著|撰/g, '').trim();
+        const rocMatch = book.year.match(/(\d+)\s*年/);
+        const adYear = rocMatch ? (parseInt(rocMatch[1], 10) + 1911) : 2026;
+        return `${cleanAuthor}，《${book.title}》，臺北：文史哲出版社，${adYear}年。`;
+      }).join('\n');
+      copyTextSafe(lines);
+      showToast(`已複製 ${books.length} 筆合輯參考文獻！`);
+    }
+
+    function copyTextSafe(text) {
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.opacity = '0';
+      document.body.appendChild(ta);
+      ta.select();
+      try {
+        document.execCommand('copy');
+        showToast('已複製至剪貼簿！');
+      } catch (e) {
+        showToast('複製失敗，請手動選取複製');
+      }
+      document.body.removeChild(ta);
+    }
+
     function handleCustomDataUpload(event) {
       const file = event.target.files[0];
       if (!file) return;
@@ -1508,12 +2279,12 @@
             allBooks = parseBookCSV(content);
           }
           document.getElementById('statTotalBooks').textContent = allBooks.length.toLocaleString();
-          document.getElementById('syncStatusText').textContent = `已載入自訂書庫 (${allBooks.length.toLocaleString()} 冊)`;
+          document.getElementById('syncStatusText').textContent = `已掛載自訂書庫 (${allBooks.length.toLocaleString()} 冊)`;
           populateCategoryDropdown();
           applyCatalogFilters();
-          showToast(`成功載入 ${allBooks.length} 本書籍資料！`);
+          showToast(`成功掛載 ${allBooks.length} 本書籍資料！`);
         } catch (err) {
-          showToast('檔案解析失敗，請確認格式為標準 CSV 或 JSON');
+          showToast('檔案解析失敗，請確認格式為 CSV 或 JSON');
         }
       };
       reader.readAsText(file, 'UTF-8');
@@ -1552,397 +2323,11 @@
       return res;
     }
 
-    /**
-     * 5. 渲染焦點新書、精選書單與完整目錄
-     */
-    function renderHeroSpotlight() {
-      const book = allBooks[0] || BUILTIN_BOOKS[0];
-      const container = document.getElementById('heroSpotlightCard');
-      container.innerHTML = `
-        <div class="w-28 sm:w-32 shrink-0 cursor-pointer" onclick="openBookDetail('${book.code}')">
-          ${renderTraditionalCoverFallback(book, 'h-40 sm:h-44')}
-        </div>
-        <div class="flex-1 min-w-0">
-          <div class="flex items-center gap-1.5 mb-1">
-            <span class="px-2 py-0.5 rounded bg-brand/10 text-brand dark:text-amber-300 text-[11px] font-semibold">${book.category}</span>
-            <span class="text-xs text-stone-400">#${book.code}</span>
-          </div>
-          <h4 onclick="openBookDetail('${book.code}')" class="font-serif-tc text-base sm:text-lg font-bold text-stone-900 dark:text-amber-50 hover:text-brand cursor-pointer line-clamp-2">
-            ${book.title}
-          </h4>
-          <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">${book.author} ｜ ${book.year}</p>
-          <p class="text-xs text-stone-600 dark:text-stone-300 mt-2 line-clamp-2 leading-relaxed">
-            ${book.intro}
-          </p>
-          <div class="mt-3 flex items-center justify-between">
-            <span class="font-serif-tc text-lg font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
-            <div class="flex gap-1.5">
-              <button onclick="openBookDetail('${book.code}')" class="px-3 py-1.5 rounded-lg border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand/10 transition">
-                詳情與導讀
-              </button>
-              <button onclick="addToCart('${book.code}')" class="px-3 py-1.5 rounded-lg bg-brand text-white text-xs font-semibold hover:bg-brand-dark transition">
-                + 加入書包
-              </button>
-            </div>
-          </div>
-        </div>
-      `;
-    }
-
-    function switchFeaturedTab(tab) {
-      const btnChoice = document.getElementById('tabBtnChoice');
-      const btnClassics = document.getElementById('tabBtnClassics');
-      let list = [];
-      if (tab === 'choice') {
-        btnChoice.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand text-white shadow transition";
-        btnClassics.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-brand/20 transition";
-        list = allBooks.filter(b => b.isNew).concat(allBooks).slice(0, 4);
-      } else {
-        btnClassics.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-brand text-white shadow transition";
-        btnChoice.className = "px-4 py-2 rounded-full text-xs sm:text-sm font-semibold bg-stone-200/80 dark:bg-stone-800 text-stone-700 dark:text-stone-300 hover:bg-brand/20 transition";
-        list = allBooks.filter(b => !b.isNew && b.category.includes('文史哲學集成')).slice(0, 4);
-      }
-      const grid = document.getElementById('featuredBooksGrid');
-      grid.innerHTML = list.map(book => renderBookCardHTML(book)).join('');
-    }
-
-    function renderBookCardHTML(book) {
-      const isBOD = book.title.toUpperCase().includes('BOD');
-      const inWish = wishlist.includes(book.code);
-      return `
-        <div class="bg-white dark:bg-stone-800 rounded-2xl p-4 shadow-sm hover:shadow-xl border border-brand/15 transition flex flex-col justify-between group">
-          <div>
-            <!-- 書封區：支援實照載入與自動古籍書封 Fallback -->
-            <div class="relative mb-3.5 cursor-pointer overflow-hidden rounded-lg" onclick="openBookDetail('${book.code}')">
-              <div class="book-cover-wrapper">
-                <img
-                  src="${book.cover}"
-                  alt="${book.title}"
-                  loading="lazy"
-                  onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
-                  class="w-full h-56 object-cover rounded-lg group-hover:scale-105 transition duration-300"
-                />
-                <div style="display:none;">
-                  ${renderTraditionalCoverFallback(book, 'h-56')}
-                </div>
-              </div>
-              <!-- 狀態徽章 -->
-              <div class="absolute top-2 left-2 flex flex-col gap-1">
-                ${book.isNew ? '<span class="px-2 py-0.5 rounded bg-brand-cinnabar text-white text-[10px] font-bold shadow">新書上市</span>' : ''}
-                ${isBOD ? '<span class="px-2 py-0.5 rounded bg-brand-indigo text-white text-[10px] font-bold shadow">BOD 隨需印製</span>' : ''}
-              </div>
-              <button
-                onclick="event.stopPropagation(); toggleWishlist('${book.code}')"
-                class="absolute top-2 right-2 w-8 h-8 rounded-full bg-black/50 text-white flex items-center justify-center text-sm hover:bg-brand-cinnabar transition"
-                title="加入學術收藏單"
-              >
-                ${inWish ? '❤️' : '🤍'}
-              </button>
-            </div>
-
-            <div class="flex items-center justify-between text-[11px] text-stone-500 dark:text-stone-400 mb-1">
-              <span class="px-2 py-0.5 rounded bg-[#F9F6F0] dark:bg-stone-900 text-brand dark:text-amber-300 font-medium truncate max-w-[70%]">
-                ${book.category}
-              </span>
-              <span class="font-mono">#${book.code}</span>
-            </div>
-
-            <h3 onclick="openBookDetail('${book.code}')" class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-50 group-hover:text-brand cursor-pointer line-clamp-2 min-h-[3rem]">
-              ${book.title}
-            </h3>
-            <p class="text-xs text-stone-500 dark:text-stone-400 mt-1">
-              ${book.author} <span class="opacity-60">｜ ${book.year}</span>
-            </p>
-            <p class="text-xs text-stone-600 dark:text-stone-300 mt-2 line-clamp-2 leading-relaxed">
-              ${book.intro || '點擊查看本書完整學術導讀、ISBN 與書目引用資訊。'}
-            </p>
-          </div>
-
-          <div class="pt-3 mt-3 border-t border-stone-200/70 dark:border-stone-700 flex items-center justify-between">
-            <div>
-              <span class="text-[10px] text-stone-400 block">定價</span>
-              <span class="font-serif-tc text-lg font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
-            </div>
-            <div class="flex items-center gap-1.5">
-              <button onclick="openBookDetail('${book.code}')" class="px-2.5 py-1.5 rounded-lg border border-stone-300 dark:border-stone-600 hover:border-brand text-xs font-medium transition">
-                導讀/引用
-              </button>
-              ${book.stock > 0
-                ? `<button onclick="addToCart('${book.code}')" class="px-3 py-1.5 rounded-lg bg-brand hover:bg-brand-dark text-white text-xs font-semibold shadow-sm transition">+ 書包</button>`
-                : `<span class="px-2.5 py-1.5 rounded-lg bg-stone-200 text-stone-500 text-xs">已售罄</span>`
-              }
-            </div>
-          </div>
-        </div>
-      `;
-    }
-
-    /**
-     * 6. 篩選、排序與雙視圖渲染邏輯
-     */
-    function populateCategoryDropdown() {
-      const categories = Array.from(new Set(allBooks.map(b => b.category).filter(Boolean)));
-      const select = document.getElementById('filterCategory');
-      select.innerHTML = '<option value="">全部叢書類別</option>' +
-        categories.map(c => `<option value="${c}">${c}</option>`).join('');
-    }
-
-    function applyCatalogFilters() {
-      const codeQ = document.getElementById('filterCode').value.trim().toLowerCase();
-      const titleQ = document.getElementById('filterTitle').value.trim().toLowerCase();
-      const authorQ = document.getElementById('filterAuthor').value.trim().toLowerCase();
-      const yearQ = document.getElementById('filterYear').value.trim().toLowerCase();
-      const catQ = document.getElementById('filterCategory').value;
-      const inStockOnly = document.getElementById('filterInStockOnly').checked;
-      const newOnly = document.getElementById('filterNewOnly').checked;
-      const bodOnly = document.getElementById('filterBODOnly').checked;
-      const sortMode = document.getElementById('sortSelect').value;
-
-      filteredBooks = allBooks.filter(book => {
-        if (codeQ && !book.code.toLowerCase().includes(codeQ)) return false;
-        if (titleQ && !book.title.toLowerCase().includes(titleQ) && !(book.intro || '').toLowerCase().includes(titleQ) && !book.isbn.toLowerCase().includes(titleQ)) return false;
-        if (authorQ && !book.author.toLowerCase().includes(authorQ)) return false;
-        if (yearQ && !book.year.toLowerCase().includes(yearQ)) return false;
-        if (catQ && book.category !== catQ) return false;
-        if (inStockOnly && book.stock <= 0) return false;
-        if (newOnly && !book.isNew) return false;
-        if (bodOnly && !book.title.toUpperCase().includes('BOD')) return false;
-        return true;
-      });
-
-      if (sortMode === 'code_asc') {
-        filteredBooks.sort((a, b) => a.code.localeCompare(b.code));
-      } else if (sortMode === 'price_asc') {
-        filteredBooks.sort((a, b) => a.price - b.price);
-      } else if (sortMode === 'price_desc') {
-        filteredBooks.sort((a, b) => b.price - a.price);
-      } else {
-        filteredBooks.sort((a, b) => (b.isNew ? 1 : 0) - (a.isNew ? 1 : 0));
-      }
-
-      currentCatalogPage = 1;
-      renderCatalog();
-    }
-
-    function renderCatalog() {
-      const visibleBooks = filteredBooks.slice(0, currentCatalogPage * PAGE_SIZE);
-      document.getElementById('filterResultCount').textContent = `共找到 ${filteredBooks.length.toLocaleString()} 本專書`;
-
-      const gridEl = document.getElementById('catalogGridView');
-      const tableEl = document.getElementById('catalogTableView');
-      const tableBody = document.getElementById('catalogTableBody');
-
-      if (filteredBooks.length === 0) {
-        gridEl.innerHTML = `<div class="col-span-full py-12 text-center text-stone-500">此分類或條件目前沒有相關書籍喔！請嘗試放寬關鍵字。</div>`;
-        tableBody.innerHTML = `<tr><td colspan="7" class="py-8 text-center text-stone-500">此分類目前沒有相關書籍喔！</td></tr>`;
-      } else {
-        gridEl.innerHTML = visibleBooks.map(renderBookCardHTML).join('');
-        tableBody.innerHTML = visibleBooks.map(book => `
-          <tr class="hover:bg-brand/5 transition">
-            <td class="py-3 px-4 font-mono text-xs text-stone-500">#${book.code}</td>
-            <td class="py-3 px-4 font-serif-tc font-bold text-stone-900 dark:text-amber-100 cursor-pointer hover:text-brand" onclick="openBookDetail('${book.code}')">
-              ${book.title}
-              ${book.isNew ? '<span class="ml-1 px-1.5 py-0.5 rounded bg-brand-cinnabar text-white text-[10px] font-sans">新書</span>' : ''}
-            </td>
-            <td class="py-3 px-4 text-stone-600 dark:text-stone-300 whitespace-nowrap">${book.author}</td>
-            <td class="py-3 px-4 text-stone-500 text-xs whitespace-nowrap">${book.year}</td>
-            <td class="py-3 px-4 text-xs"><span class="px-2 py-0.5 rounded bg-stone-100 dark:bg-stone-700">${book.category}</span></td>
-            <td class="py-3 px-4 font-serif-tc font-bold text-brand dark:text-amber-400 text-right whitespace-nowrap">NT$ ${book.price}</td>
-            <td class="py-3 px-4 text-center whitespace-nowrap space-x-1">
-              <button onclick="openBookDetail('${book.code}')" class="px-2.5 py-1 rounded border border-stone-300 dark:border-stone-600 text-xs hover:border-brand">詳情/引用</button>
-              <button onclick="addToCart('${book.code}')" class="px-2.5 py-1 rounded bg-brand text-white text-xs hover:bg-brand-dark">+ 書包</button>
-            </td>
-          </tr>
-        `).join('');
-      }
-
-      const loadMoreBtn = document.getElementById('loadMoreBooksBtn');
-      const infoEl = document.getElementById('catalogPaginationInfo');
-      if (visibleBooks.length >= filteredBooks.length) {
-        loadMoreBtn.classList.add('hidden');
-      } else {
-        loadMoreBtn.classList.remove('hidden');
-      }
-      infoEl.textContent = `目前顯示 ${visibleBooks.length} / ${filteredBooks.length} 本專書`;
-    }
-
-    function loadMoreCatalogBooks() {
-      currentCatalogPage++;
-      renderCatalog();
-    }
-
-    function setCatalogView(mode) {
-      catalogViewMode = mode;
-      const gridEl = document.getElementById('catalogGridView');
-      const tableEl = document.getElementById('catalogTableView');
-      const btnGrid = document.getElementById('viewBtnGrid');
-      const btnTable = document.getElementById('viewBtnTable');
-      if (mode === 'grid') {
-        gridEl.classList.remove('hidden');
-        tableEl.classList.add('hidden');
-        btnGrid.className = "px-2.5 py-1 rounded-md text-xs font-medium bg-brand text-white transition";
-        btnTable.className = "px-2.5 py-1 rounded-md text-xs font-medium text-stone-600 dark:text-stone-300 transition";
-      } else {
-        gridEl.classList.add('hidden');
-        tableEl.classList.remove('hidden');
-        btnTable.className = "px-2.5 py-1 rounded-md text-xs font-medium bg-brand text-white transition";
-        btnGrid.className = "px-2.5 py-1 rounded-md text-xs font-medium text-stone-600 dark:text-stone-300 transition";
-      }
-    }
-
-    function resetAllFilters() {
-      document.getElementById('filterCode').value = '';
-      document.getElementById('filterTitle').value = '';
-      document.getElementById('filterAuthor').value = '';
-      document.getElementById('filterYear').value = '';
-      document.getElementById('filterCategory').value = '';
-      document.getElementById('filterInStockOnly').checked = false;
-      document.getElementById('filterNewOnly').checked = false;
-      document.getElementById('filterBODOnly').checked = false;
-      document.getElementById('sortSelect').value = 'default';
-      applyCatalogFilters();
-    }
-
-    function executeHeroSearch() {
-      const q = document.getElementById('heroQuickSearch').value.trim();
-      resetAllFilters();
-      document.getElementById('filterTitle').value = q;
-      applyCatalogFilters();
-      scrollToSearch();
-    }
-
-    function quickFilterTag(keyword) {
-      resetAllFilters();
-      document.getElementById('filterTitle').value = keyword;
-      applyCatalogFilters();
-    }
-
-    function scrollToSearch() {
-      document.getElementById('catalogSection').scrollIntoView({ behavior: 'smooth' });
-    }
-
-    /**
-     * 7. 書籍詳情彈窗 + 編輯室學術評析 + 學術論文引用格式產生器
-     */
-    function openBookDetail(code) {
-      const book = allBooks.find(b => String(b.code) === String(code)) || BUILTIN_BOOKS[0];
-      const cleanAuthor = book.author.replace(/著|譯著|編著|撰/g, '').trim();
-      const rocMatch = book.year.match(/(\d+)\s*年/);
-      const adYear = rocMatch ? (parseInt(rocMatch[1], 10) + 1911) : 2026;
-
-      // 四種標準學術引用格式
-      const citeTaiwan = `${cleanAuthor}，《${book.title}》，臺北：文史哲出版社，${adYear}年。`;
-      const citeAPA = `${cleanAuthor}（${adYear}）。《${book.title}》。文史哲出版社。`;
-      const citeChicago = `${cleanAuthor}. ${adYear}. 《${book.title}》. Taipei: The Liberal Arts Press (文史哲出版社).`;
-      const citeBibTeX = `@book{lap_${book.code},\n  title={${book.title}},\n  author={${cleanAuthor}},\n  year={${adYear}},\n  publisher={文史哲出版社},\n  address={臺北},\n  isbn={${book.isbn || 'N/A'}}\n}`;
-
-      const content = document.getElementById('bookDetailContent');
-      content.innerHTML = `
-        <div class="grid md:grid-cols-12 gap-8 items-start">
-          <div class="md:col-span-4">
-            <img
-              src="${book.cover}"
-              alt="${book.title}"
-              onerror="this.style.display='none'; this.nextElementSibling.style.display='block';"
-              class="w-full rounded-xl shadow-lg"
-            />
-            <div style="display:none;">
-              ${renderTraditionalCoverFallback(book, 'h-72')}
-            </div>
-
-            <div class="mt-4 bg-white dark:bg-stone-800 p-4 rounded-xl border border-brand/15 text-xs space-y-2">
-              <div class="flex justify-between"><span class="text-stone-400">書碼編號：</span><span class="font-mono font-bold">#${book.code}</span></div>
-              <div class="flex justify-between"><span class="text-stone-400">ISBN：</span><span class="font-mono">${book.isbn || '請洽本社查詢'}</span></div>
-              <div class="flex justify-between"><span class="text-stone-400">出版年份：</span><span>${book.year}（西元 ${adYear} 年）</span></div>
-              <div class="flex justify-between"><span class="text-stone-400">叢書類別：</span><span>${book.category}</span></div>
-              <div class="flex justify-between"><span class="text-stone-400">庫存狀態：</span><span class="text-emerald-600 font-semibold">${book.stock > 0 ? `現貨供應 (${book.stock} 冊)` : '已售罄 / 可洽詢 BOD'}</span></div>
-            </div>
-          </div>
-
-          <div class="md:col-span-8 space-y-5">
-            <div>
-              <span class="px-2.5 py-1 rounded-full bg-brand/10 text-brand dark:text-amber-300 text-xs font-bold">${book.category}</span>
-              <h2 class="font-serif-tc text-2xl sm:text-3xl font-black text-stone-900 dark:text-amber-50 mt-2">${book.title}</h2>
-              <p class="text-sm text-stone-500 mt-1">作者：<strong>${book.author}</strong> ｜ 出版：文史哲出版社</p>
-            </div>
-
-            <div class="flex items-center justify-between bg-white dark:bg-stone-800 p-4 rounded-xl border border-brand/20">
-              <div>
-                <span class="text-xs text-stone-400 block">學術專書定價</span>
-                <span class="font-serif-tc text-3xl font-black text-brand dark:text-amber-400">NT$ ${book.price}</span>
-              </div>
-              <div class="flex flex-wrap gap-2">
-                <button onclick="toggleWishlist('${book.code}')" class="px-4 py-2.5 rounded-xl border border-brand text-brand dark:text-amber-300 text-xs font-semibold hover:bg-brand/10 transition">
-                  🔖 加入學術收藏
-                </button>
-                <button onclick="addToCart('${book.code}')" class="px-6 py-2.5 rounded-xl bg-brand hover:bg-brand-dark text-white text-sm font-semibold shadow-md transition">
-                  🎒 加入我的書包
-                </button>
-              </div>
-            </div>
-
-            <!-- 書籍簡介 -->
-            <div>
-              <h3 class="font-serif-tc font-bold text-base text-stone-900 dark:text-amber-100 mb-2">📖 書籍簡介</h3>
-              <p class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed bg-white/70 dark:bg-stone-800/60 p-4 rounded-xl border border-stone-200 dark:border-stone-700">
-                ${book.intro || '本書收錄於文史哲出版社專業學術書庫，考據詳實、論證嚴謹，歡迎學界先進選購典藏。'}
-              </p>
-            </div>
-
-            <!-- 讀後心得與學術評析 (原資料庫第 13 欄特色內容) -->
-            ${book.review ? `
-            <div>
-              <h3 class="font-serif-tc font-bold text-base text-brand dark:text-amber-400 mb-2">🖋️ 讀後心得與學術評析（編輯室導讀）</h3>
-              <blockquote class="text-sm text-stone-700 dark:text-stone-300 leading-relaxed bg-[#EFECE4] dark:bg-stone-800 p-4 rounded-xl border-l-4 border-brand italic">
-                「${book.review}」
-              </blockquote>
-            </div>
-            ` : ''}
-
-            <!-- 新增特色：學術論文引用格式一鍵產生器 -->
-            <div class="bg-white dark:bg-stone-800 p-4 rounded-xl border border-brand/20 space-y-2.5">
-              <div class="flex items-center justify-between">
-                <h4 class="font-serif-tc font-bold text-sm text-stone-900 dark:text-amber-100">🎓 學術論文引用格式（點擊即可複製）</h4>
-                <span class="text-[11px] text-stone-400">支援碩博士論文與期刊格式</span>
-              </div>
-              <div class="space-y-1.5 text-xs">
-                <div onclick="copyCitationText('${citeTaiwan.replace(/'/g, "\\'")}')" class="p-2 rounded bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2">
-                  <div><strong class="text-brand">臺灣漢學格式：</strong>${citeTaiwan}</div>
-                  <span class="text-[10px] text-brand shrink-0">複製</span>
-                </div>
-                <div onclick="copyCitationText('${citeAPA.replace(/'/g, "\\'")}')" class="p-2 rounded bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2">
-                  <div><strong class="text-brand">APA 第七版：</strong>${citeAPA}</div>
-                  <span class="text-[10px] text-brand shrink-0">複製</span>
-                </div>
-                <div onclick="copyCitationText('${citeChicago.replace(/'/g, "\\'")}')" class="p-2 rounded bg-stone-100 dark:bg-stone-900 hover:bg-brand/10 cursor-pointer flex justify-between items-center gap-2">
-                  <div><strong class="text-brand">Chicago：</strong>${citeChicago}</div>
-                  <span class="text-[10px] text-brand shrink-0">複製</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      `;
-      openModal('bookDetailModal');
-    }
-
-    function copyCitationText(text) {
-      navigator.clipboard.writeText(text);
-      showToast('已複製學術引用格式至剪貼簿！');
-    }
-
-    /**
-     * 8. 新書上市 - 隨機推薦
-     */
     function renderRandomDiscovery() {
       const shuffled = [...allBooks].sort(() => 0.5 - Math.random()).slice(0, 6);
-      const grid = document.getElementById('randomDiscoveryGrid');
-      grid.innerHTML = shuffled.map(renderBookCardHTML).join('');
+      document.getElementById('randomDiscoveryGrid').innerHTML = shuffled.map(renderBookCardHTML).join('');
     }
 
-    /**
-     * 9. 購物車（我的書包）與結帳、報帳估價單列印
-     */
     function addToCart(code) {
       const book = allBooks.find(b => String(b.code) === String(code));
       if (!book) return;
@@ -1953,7 +2338,7 @@
         cart.push({ code: book.code, title: book.title, author: book.author, price: book.price, qty: 1 });
       }
       saveCart();
-      showToast(`已將《${book.title}》加入書包！`);
+      showToast(`已將《${book.title}》加入我的書包！`);
     }
 
     function updateCartQty(code, delta) {
@@ -2000,7 +2385,7 @@
     function submitOrder(e) {
       e.preventDefault();
       if (cart.length === 0) {
-        showToast('書包目前是空的，請先加入書籍！');
+        showToast('書包目前是空的，請先選購書籍！');
         return;
       }
       const btn = document.getElementById('checkoutSubmitBtn');
@@ -2037,10 +2422,9 @@
         lookupOrder();
         openModal('orderLookupModal');
         showToast(`下單成功！您的訂單編號為 ${orderId}`);
-      }, 600);
+      }, 500);
     }
 
-    // 列印圖書館／研究計畫報帳估價單
     function printQuoteSheet() {
       if (cart.length === 0) {
         showToast('請先將書籍加入書包再列印估價單！');
@@ -2059,8 +2443,12 @@
       `).join('');
 
       const win = window.open('', '_blank');
+      if (!win) {
+        showToast('請允許瀏覽器開啟彈出視窗以列印估價單');
+        return;
+      }
       win.document.write(`
-        <html><head><title>文史哲出版社有限公司 - 圖書採購估價單</title></head>
+        <html><head><title>文史哲出版社有限公司 - 圖書採購報帳估價單</title></head>
         <body style="font-family:'Noto Serif TC',serif;padding:40px;color:#111;">
           <h2 style="text-align:center;margin-bottom:4px;">文史哲出版社有限公司</h2>
           <p style="text-align:center;font-size:12px;margin-top:0;">100040 台北市中正區羅斯福路一段72巷4號 ｜ 電話：(02)2351-1028 ｜ 傳真：(02)2396-5656</p>
@@ -2086,9 +2474,6 @@
       win.document.close();
     }
 
-    /**
-     * 10. 訂單查詢與學術收藏單功能
-     */
     function lookupOrder() {
       const q = document.getElementById('orderQueryInput').value.trim().toLowerCase();
       const resEl = document.getElementById('orderLookupResult');
@@ -2183,9 +2568,6 @@
       a.click();
     }
 
-    /**
-     * 11. 客服表單、深色模式、字級與通用彈窗控制
-     */
     function submitCustomerService(e) {
       e.preventDefault();
       const btn = document.getElementById('csSubmitBtn');
@@ -2195,12 +2577,13 @@
         e.target.reset();
         closeModal('contactModal');
         showToast('感謝您的反映！我們已收到您的訊息，將盡快回覆您。');
-      }, 500);
+      }, 450);
     }
 
     function openModal(id) {
       if (id === 'newArrivalsModal') renderRandomDiscovery();
       if (id === 'wishlistModal') renderWishlistUI();
+      if (id === 'compareModal') renderCompareDesk();
       document.getElementById(id).classList.remove('hidden');
     }
 
@@ -2217,12 +2600,12 @@
       html.classList.toggle('dark');
       const isDark = html.classList.contains('dark');
       document.getElementById('darkModeIcon').textContent = isDark ? '☀️' : '🌙';
-      document.getElementById('darkModeText').textContent = isDark ? '日讀宣紙' : '夜讀模式';
+      document.getElementById('darkModeText').textContent = isDark ? '日讀宣紙' : '夜讀松煙';
     }
 
     function setFontSize(px) {
       document.documentElement.style.setProperty('--base-font-size', px + 'px');
-      showToast(`已切換閱讀字級為 ${px}px`);
+      showToast(`已切換全站閱讀字級為 ${px}px`);
     }
 
     function showToast(msg) {
@@ -2233,24 +2616,99 @@
       window._toastTimer = setTimeout(() => toast.classList.add('hidden'), 3000);
     }
 
-    // 輪播公告計時器
     let bannerIdx = 0;
-    setInterval(() => {
+    function cycleHotBanner() {
       bannerIdx = (bannerIdx + 1) % HOT_BANNERS.length;
       const el = document.getElementById('hotBannerText');
       if (el) el.textContent = HOT_BANNERS[bannerIdx];
-    }, 5000);
+    }
+    setInterval(cycleHotBanner, 5500);
 
-    // 初始化啟動
-    window.addEventListener('DOMContentLoaded', () => {
+    function initInkCanvas() {
+      const canvas = document.getElementById('inkCanvas');
+      if (!canvas) return;
+      const ctx = canvas.getContext('2d');
+      let width = (canvas.width = window.innerWidth);
+      let height = (canvas.height = window.innerHeight);
+
+      const particles = Array.from({ length: 28 }, () => ({
+        x: Math.random() * width,
+        y: Math.random() * height,
+        r: Math.random() * 2.2 + 0.8,
+        vx: (Math.random() - 0.5) * 0.25,
+        vy: -Math.random() * 0.3 - 0.08,
+        alpha: Math.random() * 0.35 + 0.1
+      }));
+
+      const ripples = [];
+      window.addEventListener('mousemove', e => {
+        if (Math.random() < 0.18) {
+          ripples.push({ x: e.clientX, y: e.clientY, r: 2, maxR: 26, alpha: 0.22 });
+        }
+      });
+
+      window.addEventListener('resize', () => {
+        width = canvas.width = window.innerWidth;
+        height = canvas.height = window.innerHeight;
+      });
+
+      function animateInk() {
+        ctx.clearRect(0, 0, width, height);
+        const isDark = document.documentElement.classList.contains('dark');
+        const dotColor = isDark ? '197, 155, 39' : '140, 90, 43';
+
+        particles.forEach(p => {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.y < -10) p.y = height + 10;
+          if (p.x < -10) p.x = width + 10;
+          if (p.x > width + 10) p.x = -10;
+
+          ctx.beginPath();
+          ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+          ctx.fillStyle = `rgba(${dotColor}, ${p.alpha})`;
+          ctx.fill();
+        });
+
+        for (let i = ripples.length - 1; i >= 0; i--) {
+          const rp = ripples[i];
+          rp.r += 0.6;
+          rp.alpha -= 0.006;
+          if (rp.alpha <= 0) {
+            ripples.splice(i, 1);
+            continue;
+          }
+          ctx.beginPath();
+          ctx.arc(rp.x, rp.y, rp.r, 0, Math.PI * 2);
+          ctx.strokeStyle = `rgba(${dotColor}, ${rp.alpha})`;
+          ctx.lineWidth = 1;
+          ctx.stroke();
+        }
+        requestAnimationFrame(animateInk);
+      }
+      animateInk();
+    }
+
+    window.addEventListener('scroll', () => {
+      const winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = height > 0 ? (winScroll / height) * 100 : 0;
+      const bar = document.getElementById('scrollProgressBar');
+      if (bar) bar.style.width = scrolled + '%';
+    });
+
+    window.onload = function () {
       populateCategoryDropdown();
       renderHeroSpotlight();
+      renderScholarLineage('zhuang');
       switchFeaturedTab('choice');
       applyCatalogFilters();
       renderCartUI();
       renderWishlistUI();
+      updateCompareBadge();
+      initInkCanvas();
       trySyncRemoteCatalog();
-    });
+    };
   </script>
 </body>
 </html>
